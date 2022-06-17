@@ -12,6 +12,85 @@
   padding-top: 1.5rem;
 }
 
+.thumb-titles {
+  background-color: #404040;
+  color: #ffffff;
+  width: 30rem;
+  height: 10rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  margin-left: -1rem;
+}
+.thumb-titles h3 {
+  font-size: 3.1rem;
+}
+
+.thumb-netsol {
+  background: url("../img/netsol-thumb.jpg") center/cover no-repeat;
+  height: 43rem;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  z-index: -3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.thumb-workspace {
+  background: url("../img/google-thumb.jpg") center/cover no-repeat;
+  height: 43rem;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  z-index: -3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.thumb-billing {
+  background: url("../img/billing-thumb.png") center/cover no-repeat;
+  height: 43rem;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  z-index: -3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.thumb-glados {
+  background: url("../img/glados-thumb.png") center/cover no-repeat;
+  height: 43rem;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  z-index: -3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.thumb-netsol {
+  background-color: #404040;
+  color: #ffffff;
+  padding-top: -3rem;
+}
+
 .big-image {
   height: 70vh;
   width: 100vw;
