@@ -91,6 +91,17 @@
   padding-top: -3rem;
 }
 
+.about-intro {
+  height: 30rem;
+  background-color: #111111;
+  margin-bottom: 18rem;
+}
+.about-intro .write-up {
+  font-size: 1.4rem;
+  color: #ffffff;
+  padding-top: 1rem;
+}
+
 .big-image {
   height: 70vh;
   width: 100vw;
@@ -114,4 +125,61 @@
   align-items: left;
   justify-content: center;
   flex-direction: column;
+}
+
+.client-section {
+  background-color: #111111;
+}
+
+.grid-logo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(147px, 1fr) [auto-fill];
+  grid-template-columns: repeat(auto-fill, minmax(147px, 1fr));
+  grid-gap: 1rem;
+}
+
+.grid-logo > div > img {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.grid-logo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(147px, 1fr));
+  grid-gap: 1rem;
+}
+
+.grid-logo > div {
+  background: #111111;
+  padding: 1.5rem;
+  display: grid;
+  place-items: center;
+}
+
+.grid-logo > div::before {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+  grid-area: 1/1/2/2;
+}
+
+.grid-logo > div img {
+  width: 100%;
+  grid-area: 1/1/2/2;
+}
+
+.grid-logo > div > img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.hero-subHeader-client {
+  font-family: "Righteous", cursive;
+  font-size: 3rem;
+  margin-top: 7vh;
+  padding-bottom: 1rem;
+  color: #ffffff;
 }/*# sourceMappingURL=nav-style.css.map */
