@@ -12,6 +12,10 @@
   padding-top: 1.5rem;
 }
 
+.thumb-text-linkStyle {
+  text-decoration: none;
+}
+
 .thumb-titles {
   background-color: #404040;
   color: #ffffff;
