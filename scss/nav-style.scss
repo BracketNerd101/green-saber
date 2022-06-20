@@ -13,6 +13,39 @@ height: 5rem;
 
 height: 5rem;
 padding-top: 1.5rem; 
+
+}
+
+.nav-custom-styles {
+
+    background-color: #111111;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #EB168C;
+
+     a {
+
+        color:#EB168C;
+    }
+
+    a:hover {
+
+        color:#FFF;
+    }
+}
+
+.offcanvas-header {
+
+    background-color: #d6d6d6;
+    color: #111111;
+}
+
+.nav-custom-header {
+
+    background-color: #111111;
+    font-size: 2rem;
+    color: #FFFFFF;
+
 }
 
 // thumb styles 
@@ -20,6 +53,7 @@ padding-top: 1.5rem;
 .thumb-text-linkStyle {
 
     text-decoration: none;
+
 }
 
 .thumb-titles {
@@ -36,6 +70,17 @@ padding-top: 1.5rem;
     h3 {
            
         font-size: 3.1rem;
+
+    }
+
+    h3:hover {
+
+        color: #d7d4d4;
+    }
+
+    a:hover { 
+
+          color: #EB168C;
 
     }
 
@@ -118,6 +163,7 @@ padding-top: 1.5rem;
     background-color: #404040;
     color: #ffffff;
     padding-top: -3rem;
+
     
 }
 
@@ -126,9 +172,12 @@ padding-top: 1.5rem;
 
 .about-intro {
 
-    height: 30rem;
+    height: inherit;
     background-color: #111111;
-    margin-bottom: 18rem;
+    margin-bottom: auto;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 
 
     .write-up {

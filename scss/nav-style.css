@@ -12,6 +12,30 @@
   padding-top: 1.5rem;
 }
 
+.nav-custom-styles {
+  background-color: #111111;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #EB168C;
+}
+.nav-custom-styles a {
+  color: #EB168C;
+}
+.nav-custom-styles a:hover {
+  color: #FFF;
+}
+
+.offcanvas-header {
+  background-color: #d6d6d6;
+  color: #111111;
+}
+
+.nav-custom-header {
+  background-color: #111111;
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
 .thumb-text-linkStyle {
   text-decoration: none;
 }
@@ -27,6 +51,12 @@
 }
 .thumb-titles h3 {
   font-size: 3.1rem;
+}
+.thumb-titles h3:hover {
+  color: #d7d4d4;
+}
+.thumb-titles a:hover {
+  color: #EB168C;
 }
 
 .thumb-netsol {
@@ -96,9 +126,11 @@
 }
 
 .about-intro {
-  height: 30rem;
+  height: inherit;
   background-color: #111111;
-  margin-bottom: 18rem;
+  margin-bottom: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .about-intro .write-up {
   font-size: 1.4rem;
