@@ -2,6 +2,44 @@
   background-color: #404040;
 }
 
+.big-billing {
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("/img/bill-img/billing-cover.png");
+}
+.big-billing .custom-eyebrow {
+  text-transform: uppercase;
+}
+.big-billing .custom-eyebrow {
+  text-transform: uppercase;
+}
+
+.billing-presentation {
+  background-color: #1475D6;
+  height: inherit;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.content-styles-deliver-bill {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+.content-styles-deliver-bill .netsol-laptop-intro-style {
+  margin-top: 5rem;
+}
+.content-styles-deliver-bill .intro-asset-style {
+  margin-bottom: -7rem;
+}
+
+.custom-billing-seperator {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .big-netsol {
   height: 70vh;
   width: 100vw;
