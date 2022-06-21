@@ -29,6 +29,72 @@
 
 }
 
+// Google Workspace CSS 
+
+
+.big-workspace {
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: #F4C20D;
+
+
+
+.custom-eyebrow { 
+    
+    text-transform: uppercase ;
+
+  }
+
+
+
+  .overlay-workspace {
+  
+  height:          100%;
+  width:           100%;
+  top:             0;
+  left:            0;
+  color:         #000000;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  flex-direction:  column;
+
+  }
+
+}
+
+
+.content-styles-deliver-workspace {
+
+    padding-bottom: 4rem;
+    padding-top:    4rem;
+    background-color: #0F9D58;
+
+    .netsol-laptop-intro-style {
+
+    margin-top: 5rem;
+}
+
+    .intro-asset-style {
+
+            margin-bottom: -8rem;
+    }
+
+  }
+
+  .google-presentation {
+
+     background-color: #404040;
+     height:      inherit;
+
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+
+}
+
 .netsol-presentation {
 
      background-color: #ffffff;
@@ -36,6 +102,16 @@
 
      padding-top: 4rem;
      padding-bottom: 4rem;
+
+}
+
+.workspace-presentation-deliverables {
+
+     background-color: #FFFFFF ;
+     height:      inherit;
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+
 
 }
 
@@ -49,10 +125,37 @@
 
 }
 
+.google-presentation-deliverables {
+
+     background-color: #89B0AE ;
+     height:      inherit;
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+
+
+}
+
+.billing-presentation-deliverables {
+
+     background-color: #89B0AE ;
+     height:      inherit;
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+
+
+}
+
 .intro-project {
   
   height: inherit;
   background-color: #ffffff;
+
+  .content-styles {
+
+    padding-bottom: 5rem;
+    padding-top:    5rem;
+  
+    }
   
 }
 
