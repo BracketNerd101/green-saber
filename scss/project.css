@@ -2,6 +2,19 @@
   background-color: #404040;
 }
 
+.big-glados {
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+.big-glados .custom-eyebrow {
+  text-transform: uppercase;
+}
+
 .big-billing {
   height: 70vh;
   width: 100vw;
