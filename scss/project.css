@@ -13,6 +13,8 @@
 }
 .big-glados .custom-eyebrow {
   text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
 }
 
 .glados-presentation {
@@ -32,6 +34,7 @@
 }
 .big-billing .custom-eyebrow {
   text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
 }
 .big-billing .custom-eyebrow {
   text-transform: uppercase;
@@ -70,9 +73,11 @@
 }
 .big-netsol .custom-eyebrow {
   text-transform: uppercase;
+  font-weight: 500;
 }
 .big-netsol .custom-eyebrow {
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 .big-workspace {

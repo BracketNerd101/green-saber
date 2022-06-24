@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+.big-headlines {
+  font-family: Playfair;
+  font-weight: 700;
+}
+
+.san-serif-headline {
+  font-family: "Open Sans", sans-serif;
+}
+
 .naked-nav {
   background-color: transparent;
   height: inherit;
@@ -162,6 +173,10 @@
   justify-content: center;
   flex-direction: column;
 }
+.overlay .custom-eyebrow {
+  text-transform: uppercase;
+  font-weight: 600;
+}
 
 .client-section {
   background-color: #111111;
@@ -213,9 +228,8 @@
 }
 
 .hero-subHeader-client {
-  font-family: "Righteous", cursive;
-  font-size: 3rem;
-  margin-top: 7vh;
+  font-size: 4rem;
+  margin-top: 9vh;
   padding-bottom: 1rem;
   color: #ffffff;
 }/*# sourceMappingURL=nav-style.css.map */
