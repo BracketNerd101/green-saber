@@ -2,6 +2,22 @@
   background-color: #404040;
 }
 
+.big-about {
+  height: 60vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("/img/about-cover-img.png");
+}
+.big-about .custom-eyebrow {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+.big-about .custom-eyebrow {
+  text-transform: uppercase;
+}
+
 .big-glados {
   height: 70vh;
   width: 100vw;
