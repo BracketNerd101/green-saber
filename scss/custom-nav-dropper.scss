@@ -7,8 +7,16 @@
   display: block;
   transition: top 0.3s;
   z-index: 845654636436;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+
+  .plus-button-style {
+
+        height:      3rem;
+        padding-top: 0.13rem;
+        color: #EB168C;
+
+  }
 
   .dropper-logo-style {
 
@@ -32,3 +40,14 @@
   color: black;
 }
 
+.special-side-nav-layer {
+
+    z-index: 9845654636436 ;
+}
+
+#offcanvasRight {
+
+    z-index: 9845654636436 ;
+
+
+}
