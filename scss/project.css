@@ -72,7 +72,6 @@
   padding-top: 4rem;
 }
 .content-styles-deliver-bill .netsol-laptop-intro-style {
-  margin-top: 5rem;
   margin-bottom: -7rem;
 }
 .content-styles-deliver-bill .intro-asset-style {
@@ -188,8 +187,12 @@
 }
 
 .netsol-laptop-intro-style {
-  margin-top: 4rem;
-  margin-bottom: -7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.netsol-laptop-intro-style-image {
+  margin-bottom: -9rem;
 }
 
 .content-styles {
