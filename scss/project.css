@@ -22,6 +22,22 @@
   text-transform: uppercase;
 }
 
+.big-about-mobile {
+  height: 60vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../img/mobile-about-img.png");
+}
+.big-about-mobile .custom-eyebrow {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+.big-about-mobile .custom-eyebrow {
+  text-transform: uppercase;
+}
+
 .big-glados {
   height: 70vh;
   width: 100vw;
