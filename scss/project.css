@@ -203,6 +203,9 @@
   padding-bottom: 5rem;
   padding-top: 5rem;
 }
+.intro-project .content-styles {
+  padding-bottom: 0.5rem;
+}
 
 .netsol-laptop-intro-style {
   margin-top: 1rem;
