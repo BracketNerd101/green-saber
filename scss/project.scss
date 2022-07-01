@@ -134,19 +134,27 @@ background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 
 .content-styles-deliver-bill {
 
-    padding-bottom: 4rem;
-    padding-top:    4rem;
+    padding-bottom: 8rem;
+    padding-top:    8rem;
 
     .netsol-laptop-intro-style {
 
-    // margin-top: 5rem;
-    margin-bottom: -7rem;
+    margin-top: 3rem;
+    margin-bottom: auto;
 }
 
     .intro-asset-style {
 
             margin-bottom: -7rem;
+
     }
+
+
+    .bill-laptop-intro-style-image {
+
+    // margin-top: 4rem;
+    margin-bottom: -9rem;
+}
 
   }
 
@@ -306,13 +314,15 @@ background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
   
   height: inherit;
   background-color: #ffffff;
+  padding-bottom: 5rem;
+  padding-top:    5rem;
 
-  .content-styles {
+  // .content-styles {
 
-    padding-bottom: 5rem;
-    padding-top:    5rem;
+  //    padding-bottom: .5rem ;
+
   
-    }
+  //   }
   
 }
 

@@ -84,14 +84,18 @@
 }
 
 .content-styles-deliver-bill {
-  padding-bottom: 4rem;
-  padding-top: 4rem;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
 }
 .content-styles-deliver-bill .netsol-laptop-intro-style {
-  margin-bottom: -7rem;
+  margin-top: 3rem;
+  margin-bottom: auto;
 }
 .content-styles-deliver-bill .intro-asset-style {
   margin-bottom: -7rem;
+}
+.content-styles-deliver-bill .bill-laptop-intro-style-image {
+  margin-bottom: -9rem;
 }
 
 .custom-billing-seperator {
@@ -196,8 +200,6 @@
 .intro-project {
   height: inherit;
   background-color: #ffffff;
-}
-.intro-project .content-styles {
   padding-bottom: 5rem;
   padding-top: 5rem;
 }
