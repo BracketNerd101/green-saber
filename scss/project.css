@@ -14,12 +14,10 @@
   background-position: 50% 50%;
   background-image: url("../img/about-cover-img.png");
 }
-
 .big-about .custom-eyebrow {
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-
 .big-about .custom-eyebrow {
   text-transform: uppercase;
 }
@@ -32,12 +30,10 @@
   background-position: 50% 50%;
   background-image: url("../img/mobile-about-img.png");
 }
-
 .big-about-mobile .custom-eyebrow {
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-
 .big-about-mobile .custom-eyebrow {
   text-transform: uppercase;
 }
@@ -51,11 +47,10 @@
   background-color: #2d3436;
   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
-
 .big-glados .custom-eyebrow {
   text-transform: uppercase;
   font-weight: 600;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .glados-presentation {
@@ -73,12 +68,10 @@
   background-position: 50% 50%;
   background-image: url("../img/bill-img/billing-cover.png");
 }
-
 .big-billing .custom-eyebrow {
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-
 .big-billing .custom-eyebrow {
   text-transform: uppercase;
 }
@@ -94,16 +87,13 @@
   padding-bottom: 8rem;
   padding-top: 8rem;
 }
-
 .content-styles-deliver-bill .netsol-laptop-intro-style {
   margin-top: 3rem;
   margin-bottom: auto;
 }
-
 .content-styles-deliver-bill .intro-asset-style {
   margin-bottom: -7rem;
 }
-
 .content-styles-deliver-bill .bill-laptop-intro-style-image {
   margin-bottom: -9rem;
 }
@@ -121,12 +111,10 @@
   background-position: 50% 50%;
   background-image: url("../img/netsol-img/netsol-cover.png");
 }
-
 .big-netsol .custom-eyebrow {
   text-transform: uppercase;
   font-weight: 500;
 }
-
 .big-netsol .custom-eyebrow {
   text-transform: uppercase;
   font-weight: 500;
@@ -140,11 +128,9 @@
   background-position: 50% 50%;
   background-color: #F4C20D;
 }
-
 .big-workspace .custom-eyebrow {
   text-transform: uppercase;
 }
-
 .big-workspace .overlay-workspace {
   height: 100%;
   width: 100%;
@@ -162,11 +148,9 @@
   padding-top: 4rem;
   background-color: #0F9D58;
 }
-
 .content-styles-deliver-workspace .netsol-laptop-intro-style {
   margin-top: 5rem;
 }
-
 .content-styles-deliver-workspace .intro-asset-style {
   margin-bottom: -8rem;
 }
@@ -219,7 +203,6 @@
   padding-bottom: 5rem;
   padding-top: 5rem;
 }
-
 .intro-project .content-styles {
   padding-bottom: 5.5rem;
 }
@@ -253,4 +236,4 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
+}/*# sourceMappingURL=project.css.map */

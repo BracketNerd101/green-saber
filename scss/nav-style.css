@@ -11,7 +11,7 @@
 }
 
 .san-serif-headline {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .naked-nav {
@@ -36,11 +36,9 @@
   text-transform: uppercase;
   color: #EB168C;
 }
-
 .nav-custom-styles a {
   color: #272727;
 }
-
 .nav-custom-styles a:hover {
   color: #EB168C;
 }
@@ -69,15 +67,12 @@
   padding-left: 2rem;
   margin-left: -1rem;
 }
-
 .thumb-titles h3 {
   font-size: 3.1rem;
 }
-
 .thumb-titles h3:hover {
   color: #d7d4d4;
 }
-
 .thumb-titles a:hover {
   color: #EB168C;
 }
@@ -155,7 +150,6 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-
 .about-intro .write-up {
   font-size: 1.4rem;
   color: #ffffff;
@@ -163,7 +157,7 @@
 }
 
 .big-image {
-  height: 99vh;
+  height: 75vh;
   width: 100vw;
   position: relative;
   background-size: cover;
@@ -177,21 +171,11 @@
   top: 0;
   left: 0;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
 }
-
 .overlay .custom-eyebrow {
   text-transform: uppercase;
   font-weight: 600;
@@ -216,17 +200,14 @@
 }
 
 .grid-logo {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(147px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(147px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(147px, 1fr));
   grid-gap: 1rem;
 }
 
 .grid-logo > div {
   background: #111111;
   padding: 1.5rem;
-  display: -ms-grid;
   display: grid;
   place-items: center;
 }
@@ -235,20 +216,12 @@
   content: "";
   display: block;
   padding-bottom: 100%;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1/1/2/2;
 }
 
 .grid-logo > div img {
   width: 100%;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1/1/2/2;
 }
 
 .grid-logo > div > img {
@@ -262,5 +235,4 @@
   margin-top: 9vh;
   padding-bottom: 1rem;
   color: #ffffff;
-}
-/*# sourceMappingURL=nav-style.css.map */
+}/*# sourceMappingURL=nav-style.css.map */
