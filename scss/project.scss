@@ -78,6 +78,29 @@
 
 }
 
+.fis-deliverables {
+
+     background-color: #89B0AE ;
+     height:      inherit;
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+
+     .fis-padding {
+
+      padding-top: 4rem;
+     
+    }
+
+
+}
+
+
+.fis-green-color {
+
+  background-color: #012834;
+ 
+}
+
 .dmn-red-color {
 
   background-color: #B63837;
@@ -95,7 +118,8 @@
      .dmn-padding {
 
       padding-top: 4rem;
-     }
+     
+    }
 
 }
 
@@ -203,6 +227,32 @@
 
   }
 
+
+  .big-fis {
+  height: 99vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../img/fis-img/fis-cover.png");
+
+.custom-eyebrow { 
+    
+    
+    text-transform: uppercase ;
+    font-weight: 500;
+
+}
+
+
+.custom-eyebrow { 
+    
+    text-transform: uppercase ;
+    font-weight: 500;
+
+  }
+
+}
 
 // Network solutions css 
 
@@ -337,7 +387,6 @@
 
 
 }
-
 
 
 .billing-presentation-deliverables {

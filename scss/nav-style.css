@@ -142,6 +142,21 @@
   max-width: 100%;
 }
 
+.thumb-search {
+  background: url("../img/dmn-img/domain-cover.png") center/cover no-repeat;
+  height: 43rem;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  z-index: -3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
 .thumb-netsol {
   background-color: #404040;
   color: #ffffff;

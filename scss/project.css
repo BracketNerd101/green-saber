@@ -52,6 +52,20 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.fis-deliverables {
+  background-color: #89B0AE;
+  height: inherit;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.fis-deliverables .fis-padding {
+  padding-top: 4rem;
+}
+
+.fis-green-color {
+  background-color: #012834;
+}
+
 .dmn-red-color {
   background-color: #B63837;
 }
@@ -129,6 +143,23 @@
 .custom-billing-seperator {
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+.big-fis {
+  height: 99vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../img/fis-img/fis-cover.png");
+}
+.big-fis .custom-eyebrow {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.big-fis .custom-eyebrow {
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .big-netsol {
