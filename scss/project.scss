@@ -58,6 +58,47 @@
 
   }
 }
+// Domain-search Code proj css
+
+.big-domain  {
+ height: 99vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../img/dmn-img/domain-cover.png");
+    
+    .custom-eyebrow  {
+
+    text-transform: uppercase;
+    font-weight: 600;
+  
+    font-family: 'Open Sans', sans-serif;
+}
+
+}
+
+.dmn-red-color {
+
+  background-color: #B63837;
+ 
+}
+
+.dmn-presentation {
+
+     background-color: #f2f2f2;
+     height:      inherit;
+
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+
+     .dmn-padding {
+
+      padding-top: 4rem;
+     }
+
+}
+
 
 
 // Glados Code proj css 
