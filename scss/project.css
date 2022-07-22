@@ -38,6 +38,20 @@
   text-transform: uppercase;
 }
 
+.big-domain-social {
+  height: 99vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../img/dmn-img/award-2.png");
+}
+.big-domain-social .custom-eyebrow {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
 .big-domain {
   height: 99vh;
   width: 100vw;

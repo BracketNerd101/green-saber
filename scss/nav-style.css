@@ -55,7 +55,7 @@
 }
 
 .project-spacers {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .thumb-text-linkStyle {
@@ -114,6 +114,36 @@
 
 .thumb-billing {
   background: url("../img/billing-thumb.png") center/cover no-repeat;
+  height: 43rem;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  z-index: -3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.thumb-dmn-social {
+  background: url("../img/dmn-img/award-2.png") center/cover no-repeat;
+  height: 43rem;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  z-index: -3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.thumb-fis {
+  background: url("../img/fis-img/fis-cover.png") center/cover no-repeat;
   height: 43rem;
   width: 100vw;
   margin-left: auto;
