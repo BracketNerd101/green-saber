@@ -211,12 +211,12 @@
 }
 
 .big-image {
-  height: 55vh;
+  height: 50vh;
   width: 100vw;
   position: relative;
   background-size: cover;
-  background-position: 50% 50%;
-  background-image: url("../img/homepage-hero.jpg");
+  background: #8D10D1;
+  background: linear-gradient(to bottom right, #2b0540, #d1177e);
 }
 
 .overlay {

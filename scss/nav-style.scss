@@ -282,12 +282,16 @@ padding-top: 1.5rem;
 }
 
 .big-image {
-  height: 55vh;
+  height: 50vh;
   width: 100vw;
   position: relative;
   background-size: cover;
-  background-position: 50% 50%;
-  background-image: url("../img/homepage-hero.jpg") ;
+      background: #8D10D1;
+    background: -webkit-linear-gradient(top left, #8D10D1, #8255CE);
+    background: -moz-linear-gradient(top left, #8D10D1, #8255CE);
+    background: linear-gradient(to bottom right, #2b0540, #d1177e);
+//   background-position: 50% 50%;
+//   background-image: url("../img/homepage-hero.jpg") ;
 
 }
 
