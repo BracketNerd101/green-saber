@@ -38,6 +38,62 @@
   text-transform: uppercase;
 }
 
+.big-web-social {
+  height: 99vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../img/dmn-img/award-2.png");
+}
+.big-web-social .custom-eyebrow {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.big-web {
+  height: 99vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: #131313;
+}
+.big-web .custom-eyebrow {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.content-styles-deliver-web {
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+  background-color: #0A39C9;
+}
+.content-styles-deliver-web .netsol-laptop-intro-style {
+  margin-top: 3rem;
+  margin-bottom: auto;
+}
+.content-styles-deliver-web .intro-asset-style {
+  margin-bottom: -7rem;
+}
+.content-styles-deliver-web .bill-laptop-intro-style-image {
+  margin-bottom: -14rem;
+}
+
+.overlay-web {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: #767676;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .big-domain-social {
   height: 99vh;
   width: 100%;

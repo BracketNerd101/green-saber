@@ -58,6 +58,87 @@
 
   }
 }
+
+// web.com black friday campaign
+
+.big-web-social  {
+ 
+  height: 99vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../img/dmn-img/award-2.png");
+    
+    .custom-eyebrow  {
+
+    text-transform: uppercase;
+    font-weight: 600;
+  
+    font-family: 'Open Sans', sans-serif;
+ }
+
+}
+
+.big-web  {
+  
+  height: 99vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: #131313;
+    
+    .custom-eyebrow  {
+
+    text-transform: uppercase;
+    font-weight: 600;
+  
+    font-family: 'Open Sans', sans-serif;
+ }
+
+}
+
+.content-styles-deliver-web {
+
+    padding-bottom: 8rem;
+    padding-top:    8rem;
+    background-color: #0A39C9 ;
+
+    .netsol-laptop-intro-style {
+
+    margin-top: 3rem;
+    margin-bottom: auto;
+}
+
+    .intro-asset-style {
+
+            margin-bottom: -7rem;
+
+    }
+
+
+    .bill-laptop-intro-style-image {
+
+    margin-bottom: -14rem;
+}
+
+  }
+
+.overlay-web {
+  
+  height:          100%;
+  width:           100%;
+  top:             0;
+  left:            0;
+  color:           #767676;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  flex-direction:  column;
+
+}
+
 // Domain-search Code proj css
 
 .big-domain-social  {
