@@ -52,6 +52,13 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.web-presentation {
+  background-color: #FFF;
+  height: inherit;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .big-web {
   height: 99vh;
   width: 100%;
