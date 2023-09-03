@@ -8,7 +8,7 @@
 
 .big-about {
   height: 45vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
@@ -24,7 +24,7 @@
 
 .big-about-mobile {
   height: 60vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
@@ -40,7 +40,7 @@
 
 .big-domain-social {
   height: 99vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
@@ -54,7 +54,7 @@
 
 .big-domain {
   height: 99vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
@@ -95,7 +95,7 @@
 
 .big-glados {
   height: 99vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
@@ -117,7 +117,7 @@
 
 .big-billing {
   height: 99vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
@@ -160,7 +160,7 @@
 
 .big-fis {
   height: 99vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
@@ -177,7 +177,7 @@
 
 .big-netsol {
   height: 99vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
@@ -194,7 +194,7 @@
 
 .big-workspace {
   height: 99vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
