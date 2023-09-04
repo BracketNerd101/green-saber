@@ -59,6 +59,39 @@
   }
 }
 
+/// Domain service product page CSS //////////////
+
+.big-dmn-serv {
+  height: 99vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../img/dmn-serv-img/dmn-hero-3.png");
+
+
+.custom-eyebrow { 
+    
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#dmn-final {
+      background-color: #5C5C5C ;
+
+
+     }
+
+
+.custom-eyebrow { 
+    
+    text-transform: uppercase ;
+
+  }
+
+}
+
 // web.com black friday campaign
 
 .big-web-social  {
@@ -77,6 +110,20 @@
   
     font-family: 'Open Sans', sans-serif;
  }
+
+}
+
+.overlay-dmn {
+  
+  height:          100%;
+  width:           100%;
+  top:             0;
+  left:            0;
+  color:           #FFFFFF;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  flex-direction:  column;
 
 }
 

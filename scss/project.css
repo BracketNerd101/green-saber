@@ -38,6 +38,25 @@
   text-transform: uppercase;
 }
 
+.big-dmn-serv {
+  height: 99vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../img/dmn-serv-img/dmn-hero-3.png");
+}
+.big-dmn-serv .custom-eyebrow {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+.big-dmn-serv #dmn-final {
+  background-color: #5C5C5C;
+}
+.big-dmn-serv .custom-eyebrow {
+  text-transform: uppercase;
+}
+
 .big-web-social {
   height: 99vh;
   width: 100%;
@@ -50,6 +69,18 @@
   text-transform: uppercase;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
+}
+
+.overlay-dmn {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .web-presentation {
