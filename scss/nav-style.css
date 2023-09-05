@@ -264,6 +264,15 @@
   background: linear-gradient(to bottom right, #2b0540, #d1177e);
 }
 
+.big-image-2 {
+  height: 45vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background: #8D10D1;
+  background: linear-gradient(to bottom right, #2b0540, #d1177e);
+}
+
 .overlay {
   height: 100%;
   width: 100%;

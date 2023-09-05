@@ -348,6 +348,19 @@ padding-top: 1.5rem;
 //   background-image: url("../img/homepage-hero.jpg") ;
 
 }
+.big-image-2 {
+  height: 45vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+      background: #8D10D1;
+    background: -webkit-linear-gradient(top left, #8D10D1, #8255CE);
+    background: -moz-linear-gradient(top left, #8D10D1, #8255CE);
+    background: linear-gradient(to bottom right, #2b0540, #d1177e);
+//   background-position: 50% 50%;
+//   background-image: url("../img/homepage-hero.jpg") ;
+
+}
 
 
 .overlay {
