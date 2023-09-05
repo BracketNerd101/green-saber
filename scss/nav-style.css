@@ -97,6 +97,51 @@
   max-width: 100%;
 }
 
+.thumb-web-friday {
+  background: url("../img/web-img/wall-1.png") center/cover no-repeat;
+  height: 43rem;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  z-index: -3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.thumb-dmn-service {
+  background: url("../img/dmn-serv-img/dmn-hero-3.png") center/cover no-repeat;
+  height: 43rem;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  z-index: -3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.thumb-web-blue {
+  background: url("../img/blue-img/blue-hero-3.png") center/cover no-repeat;
+  height: 43rem;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  z-index: -3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
 .thumb-workspace {
   background: url("../img/google-thumb.jpg") center/cover no-repeat;
   height: 43rem;
