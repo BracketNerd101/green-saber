@@ -13,7 +13,7 @@
 .resume .resume-item {
   padding: 0 0 50px 40px;
   margin-top: -2px;
-  border-left: 2px solid #333;
+  border-left: 2px solid #EB168C;
   position: relative;
 }
 
@@ -56,5 +56,5 @@
   left: -6px;
   top: 0;
   background: #fff;
-  border: 2px solid #262626;
+  border: 2px solid #EB168C;
 }/*# sourceMappingURL=special-resume.css.map */

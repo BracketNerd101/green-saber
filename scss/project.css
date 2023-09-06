@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .custom-dark {
   background-color: #f1efef;
 }
@@ -16,7 +17,7 @@
 }
 .big-about .custom-eyebrow {
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .big-about .custom-eyebrow {
   text-transform: uppercase;
@@ -32,7 +33,7 @@
 }
 .big-about-mobile .custom-eyebrow {
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .big-about-mobile .custom-eyebrow {
   text-transform: uppercase;
@@ -59,17 +60,17 @@
 }
 .big-bluehost .custom-eyebrow {
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .big-bluehost #dmn-final {
-  background-color: #2b2b2b;
+  background-color: #680303;
 }
 .big-bluehost .custom-eyebrow {
   text-transform: uppercase;
 }
 
 #dmn-final {
-  background-color: #2b2b2b;
+  background-color: #570202;
 }
 
 .big-dmn-serv {
@@ -82,7 +83,7 @@
 }
 .big-dmn-serv .custom-eyebrow {
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .big-dmn-serv #dmn-final {
   background-color: #2b2b2b;
@@ -102,7 +103,7 @@
 .big-web-social .custom-eyebrow {
   text-transform: uppercase;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .overlay-dmn {
@@ -139,7 +140,7 @@
 .big-web .custom-eyebrow {
   text-transform: uppercase;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .content-styles-deliver-web {
@@ -181,7 +182,7 @@
 .big-domain-social .custom-eyebrow {
   text-transform: uppercase;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .big-domain {
@@ -195,7 +196,7 @@
 .big-domain .custom-eyebrow {
   text-transform: uppercase;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .fis-deliverables {
@@ -237,7 +238,7 @@
 .big-glados .custom-eyebrow {
   text-transform: uppercase;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .glados-presentation {
@@ -257,7 +258,7 @@
 }
 .big-billing .custom-eyebrow {
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .big-billing .custom-eyebrow {
   text-transform: uppercase;
