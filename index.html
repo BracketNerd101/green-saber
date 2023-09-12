@@ -1,281 +1,350 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Arthur Charles Edwards</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <link rel="stylesheet" href="scss/nav-style.css">
-        <link rel="stylesheet" href="scss/project.css">
-        <link rel="stylesheet" href="scss/custom-nav-dropper.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="img/site.webmanifest">
-</head>
-<!-- Navigation area -->
 
-<div class="offcanvas offcanvas-end special-side-nav-layer" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="scss/nav-style.css" />
+    <link rel="stylesheet" href="scss/project.css" />
+    <link rel="stylesheet" href="scss/custom-nav-dropper.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/site.webmanifest" />
+  </head>
+  <!-- Navigation area -->
+
+  <div
+    class="offcanvas offcanvas-end special-side-nav-layer"
+    tabindex="-1"
+    id="offcanvasRight"
+    aria-labelledby="offcanvasRightLabel"
+  >
     <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasRightLabel">Arthur Charles Edwards</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">
+        Arthur Charles Edwards
+      </h5>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
     </div>
     <div class="offcanvas-body nav-custom-styles">
-        <ul class="nav flex-column">
-            <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="index.html">Work</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" target="_blank" href="Arthur-EdwardsRESUME_2022.pdf">résumé</a>
-            </li>
-        </ul>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            target="_blank"
+            href="Arthur-EdwardsRESUME_2022.pdf"
+            >résumé</a
+          >
+        </li>
+      </ul>
     </div>
-</div>
+  </div>
 
-<!-- Navigstion area end -->
+  <!-- Navigstion area end -->
 
-<div id="nav-dropper">
+  <div id="nav-dropper">
     <div class="container d-flex align-items-center justify-content-between">
-       
-            <div>
-                <a class="navbar-brand custom-logo-style" href="index.html">
-                    <img src="img/pink-brand-logo.svg" height="75" alt="">
-                </a>
-            </div>
-            
-            <div>
-                <a href="index.html">Work</a>
-                <a href="about.html">About</a>
-                <a target="_blank" href="Arthur-EdwardsRESUME_2022.pdf">Résumé</a>
-            </div>
-</div>
-</div>
+      <div>
+        <a class="navbar-brand custom-logo-style" href="index.html">
+          <img src="img/pink-brand-logo.svg" height="75" alt="" />
+        </a>
+      </div>
 
-<body class="custom-dark">
+      <div>
+        <a href="index.html">Work</a>
+        <a href="about.html">About</a>
+        <a target="_blank" href="Arthur-EdwardsRESUME_2022.pdf">Résumé</a>
+      </div>
+    </div>
+  </div>
+
+  <body class="custom-dark">
     <nav class="navbar fixed-top naked-nav">
-        <div class="container">
-            <a class="navbar-brand custom-logo-style" href="index.html">
-                <img src="img/brand-logo.svg" alt="">
-            </a>
-            <a class="text-white plus-button-style" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-                    class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
-                    <path
-                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
-                </svg></a>
-        </div>
+      <div class="container">
+        <a class="navbar-brand custom-logo-style" href="index.html">
+          <img src="img/brand-logo.svg" alt="" />
+        </a>
+        <a
+          class="text-white plus-button-style"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-plus-circle-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+            /></svg
+        ></a>
+      </div>
     </nav>
     <div class="big-image">
-        <div class="container overlay">
-            <div class="row">
-                <div class="col-lg-11 home-hero-style">
-                    <h1 class="text-white cover-text san-serif-headline display-1 d-sm-block d-md-none fw-bold">Arthur Charles Edwards</h1>
-                    <h2 class="text-white cover-text fw-light display-5 d-sm-block d-md-none">Visual Designer & Front-End Enthusiast </h2>
-                    <h1 class="text-white cover-text san-serif-headline display-3 d-none d-sm-block fw-bold pb-4">Arthur Charles Edwards</h1>
-                    <h2 class="text-white cover-text fw-light display-6 d-none d-sm-block">Visual Designer & Front-End Enthusiast </h2>
-                    <h5 class="d-none d-sm-block fw-light">I specialize in UI Design with 8 years of industry experience.</h5>
-                </div>
-            </div>
+      <div class="container overlay">
+        <div class="row">
+          <div class="col-lg-11 home-hero-style">
+            <h1
+              class="text-white cover-text san-serif-headline display-1 d-sm-block d-md-none fw-bold"
+            >
+              Arthur Charles Edwards
+            </h1>
+            <h2
+              class="text-white cover-text fw-light display-5 d-sm-block d-md-none"
+            >
+              Visual Designer & Front-End Enthusiast
+            </h2>
+            <h1
+              class="text-white cover-text san-serif-headline display-3 d-none d-sm-block fw-bold pb-4"
+            >
+              Arthur Charles Edwards
+            </h1>
+            <h2
+              class="text-white cover-text fw-light display-6 d-none d-sm-block"
+            >
+              Visual Designer & Front-End Enthusiast
+            </h2>
+            <h5 class="d-none d-sm-block fw-light">
+              I specialize in UI Design with 8 years of industry experience.
+            </h5>
+          </div>
         </div>
+      </div>
     </div>
     <div class="container project-spacers">
-        <div class="row">
-            <a href="digital-brand.html" class="thumb-text-linkStyle">
-                <div class="col-lg-12 mt-5 thumb-netsol d-flex align-items-end">
-                    <div class="thumb-titles">
-                        <h5>Network Solutions</h5>
-                        <h3 class="san-serif-headline">Branding Design</h3>
-                        <p>Revitalizing a brand in the modern era.</p>  
-                    </div>
-                </div>
-            </a>
-        </div>
+      <div class="row">
+        <a href="digital-brand.html" class="thumb-text-linkStyle">
+          <div class="col-lg-12 mt-5 thumb-netsol d-flex align-items-end">
+            <div class="thumb-titles">
+              <h5>Network Solutions</h5>
+              <h3 class="san-serif-headline">Branding Design</h3>
+              <p>Revitalizing a brand in the modern era.</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
     <!-- Netsol thumb -->
     <div class="container project-spacers">
-        <div class="row">
-            <a href="web-friday.html" class="thumb-text-linkStyle">
-                <div class="col-lg-12 mt-5 thumb-web-friday d-flex align-items-end">
-                    <div class="thumb-titles">
-                        <h5>Black Friday</h5>
-                        <h3 class="san-serif-headline">Visual Design</h3>
-                        <p>Advertising Campaign</p>
-    
-                    </div>
-                </div>
-            </a>
-        </div>
+      <div class="row">
+        <a href="web-friday.html" class="thumb-text-linkStyle">
+          <div class="col-lg-12 mt-5 thumb-web-friday d-flex align-items-end">
+            <div class="thumb-titles">
+              <h5>Black Friday</h5>
+              <h3 class="san-serif-headline">Visual Design</h3>
+              <p>Advertising Campaign</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
     <!-- web black friday thumb -->
     <div class="container project-spacers">
-        <div class="row">
-            <a href="workspace.html" class="thumb-text-linkStyle">
-                <div class="col-lg-12 mt-5 thumb-workspace d-flex align-items-end">
-                    <div class="thumb-titles">
-                        <h5>Google Workspace</h5>
-                        <h3 class="san-serif-headline">Visual Design</h3>
-                        <p>Advertising a premiere product.</p>
-                        
-                    </div>
-                </div>
-            </a>
-        </div>
+      <div class="row">
+        <a href="workspace.html" class="thumb-text-linkStyle">
+          <div class="col-lg-12 mt-5 thumb-workspace d-flex align-items-end">
+            <div class="thumb-titles">
+              <h5>Google Workspace</h5>
+              <h3 class="san-serif-headline">Visual Design</h3>
+              <p>Advertising a premiere product.</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
     <!-- workspace thumb -->
     <div class="container project-spacers">
-        <div class="row">
-            <a href="dmn-service.html" class="thumb-text-linkStyle">
-                <div class="col-lg-12 mt-5 thumb-dmn-service d-flex align-items-end">
-                    <div class="thumb-titles">
-                        <h5>Domain.com</h5>
-                        <h3 class="san-serif-headline">Web Design</h3>
-                        <p>Professional Marketing Services</p>
-    
-                    </div>
-                </div>
-            </a>
-        </div>
+      <div class="row">
+        <a href="dmn-service.html" class="thumb-text-linkStyle">
+          <div class="col-lg-12 mt-5 thumb-dmn-service d-flex align-items-end">
+            <div class="thumb-titles">
+              <h5>Domain.com</h5>
+              <h3 class="san-serif-headline">Web Design</h3>
+              <p>Professional Marketing Services</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
     <!-- bluehost thumb -->
     <div class="container project-spacers">
-        <div class="row">
-            <a href="billing-app.html" class="thumb-text-linkStyle">
-                <div class="col-lg-12 mt-5 thumb-billing d-flex align-items-end">
-                    <div class="thumb-titles">
-                        <h5>Florida Blue</h5>
-                        <h3 class="san-serif-headline">App Design</h3>
-                        <p>Designing an easier way to pay.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
+      <div class="row">
+        <a href="billing-app.html" class="thumb-text-linkStyle">
+          <div class="col-lg-12 mt-5 thumb-billing d-flex align-items-end">
+            <div class="thumb-titles">
+              <h5>Florida Blue</h5>
+              <h3 class="san-serif-headline">App Design</h3>
+              <p>Designing an easier way to pay.</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
     <!-- billing thumb -->
     <div class="container project-spacers">
-        <div class="row">
-            <a href="blue.html" class="thumb-text-linkStyle">
-                <div class="col-lg-12 mt-5 thumb-web-blue d-flex align-items-end">
-                    <div class="thumb-titles">
-                        <h5>Bluehost</h5>
-                        <h3 class="san-serif-headline">Visual Design</h3>
-                        <p>Social Media Marketing</p>
-    
-                    </div>
-                </div>
-            </a>
-        </div>
+      <div class="row">
+        <a href="blue.html" class="thumb-text-linkStyle">
+          <div class="col-lg-12 mt-5 thumb-web-blue d-flex align-items-end">
+            <div class="thumb-titles">
+              <h5>Bluehost</h5>
+              <h3 class="san-serif-headline">Visual Design</h3>
+              <p>Social Media Marketing</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
     <!-- bluehost thumb -->
     <div class="container project-spacers">
-        <div class="row">
-            <a href="fis-portal.html" class="thumb-text-linkStyle col-lg-6">
-                <div class="mt-5 thumb-fis d-flex align-items-end">
-                    <div class="thumb-titles">
-                        <h5>F.I.S.</h5>
-                        <h3 class="san-serif-headline">Visual Design</h3>
-                        <p>Promoting business collaboration.</p>
-                        
-                    </div>
-                </div>
-            </a>
-            <a href="search-filter.html" class="thumb-text-linkStyle col-lg-6">
-                <div class="col-lg-6 mt-5 thumb-search d-flex align-items-end">
-                    <div class="thumb-titles">
-                        <h5>Domain.com</h5>
-                        <h3 class="san-serif-headline">Visual Design</h3>
-                        <p>Refining the customer's search experience.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
+      <div class="row">
+        <a href="fis-portal.html" class="thumb-text-linkStyle col-lg-6">
+          <div class="mt-5 thumb-fis d-flex align-items-end">
+            <div class="thumb-titles">
+              <h5>F.I.S.</h5>
+              <h3 class="san-serif-headline">Visual Design</h3>
+              <p>Promoting business collaboration.</p>
+            </div>
+          </div>
+        </a>
+        <a href="search-filter.html" class="thumb-text-linkStyle col-lg-6">
+          <div class="col-lg-6 mt-5 thumb-search d-flex align-items-end">
+            <div class="thumb-titles">
+              <h5>Domain.com</h5>
+              <h3 class="san-serif-headline">Visual Design</h3>
+              <p>Refining the customer's search experience.</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
     <div class="container project-spacers">
-        <div class="row">
-            <a href="glados-lib.html" class="thumb-text-linkStyle col-lg-6">
-                <div class="mt-4 thumb-glados d-flex align-items-end">
-                    <div class="thumb-titles">
-                        <h5>Florida Blue</h5>
-                        <h3 class="san-serif-headline">Visual Design</h3>
-                        <p>Helping developers program applications.</p>
-                    </div>
-                </div>
-            </a>
-    
-            <a href="dmn-social.html" class="thumb-text-linkStyle col-lg-6">
-                <div class="mt-4 thumb-dmn-social d-flex align-items-end">
-                    <div class="thumb-titles">
-                        <h5>Domain.com</h5>
-                        <h3 class="san-serif-headline">Visual Design</h3>
-                        <p>Promoting excellence in the Internet industry. </p>
-                    </div>
-                </div>
-            </a>
-        </div>
+      <div class="row">
+        <a href="glados-lib.html" class="thumb-text-linkStyle col-lg-6">
+          <div class="mt-4 thumb-glados d-flex align-items-end">
+            <div class="thumb-titles">
+              <h5>Florida Blue</h5>
+              <h3 class="san-serif-headline">Visual Design</h3>
+              <p>Helping developers program applications.</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="dmn-social.html" class="thumb-text-linkStyle col-lg-6">
+          <div class="mt-4 thumb-dmn-social d-flex align-items-end">
+            <div class="thumb-titles">
+              <h5>Domain.com</h5>
+              <h3 class="san-serif-headline">Visual Design</h3>
+              <p>Promoting excellence in the Internet industry.</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
 
-<section class="client-section">
-    <div class="container">
+    <section class="client-section">
+      <div class="container">
         <div class="row pt-4">
-            <div class="col-lg-4">
-                <h2 class="pt-3 hero-subHeader-client san-serif-headline">Clients</h2>
+          <div class="col-lg-4">
+            <h2 class="pt-3 hero-subHeader-client san-serif-headline">
+              Clients
+            </h2>
+          </div>
+
+          <div class="col-lg-7 pb-3">
+            <div class="grid-logo">
+              <div>
+                <img src="img/white-citi-logo.png" class="text-white" alt="" />
+              </div>
+              <div><img src="img/white-uf-logo.png" alt="" /></div>
+              <div><img src="img/white-network-solution.svg" alt="" /></div>
+              <div><img src="img/domain-logo.png" alt="" /></div>
+              <div><img src="img/white-webcom.svg" alt="" /></div>
+              <div><img src="img/white-flblue.png" alt="" /></div>
+              <div><img src="img/white-fis-logo.png" alt="" /></div>
+              <div><img src="img/white-registercom.svg" alt="" /></div>
             </div>
-
-            <div class="col-lg-7 pb-3">
-                <div class="grid-logo">
-                    <div><img src="img/white-citi-logo.png" class="text-white" alt=""></div>
-                    <div><img src="img/white-uf-logo.png" alt=""></div>
-                    <div><img src="img/white-network-solution.svg" alt=""></div>
-                    <div><img src="img/domain-logo.png" alt=""></div>
-                    <div><img src="img/white-webcom.svg" alt=""></div>
-                    <div><img src="img/white-flblue.png" alt=""></div>
-                    <div><img src="img/white-fis-logo.png" alt=""></div>
-                    <div><img src="img/white-registercom.svg" alt=""></div>
-
-                </div>
-            </div>
-
+          </div>
         </div>
-    </div>
-
-</section>
-<section class="about-intro">
-    <div class="container">
+      </div>
+    </section>
+    <section class="about-intro">
+      <div class="container">
         <div class="row">
-            <div class="col-lg-4 d-flex align-content-center flex-wrap pb-4">
-                    <img src="img/bio-purple.png" class="img-fluid pt-4" alt="...">
-            </div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-7 d-flex align-content-center flex-wrap">
-                <h3 class="text-white mb-3 san-serif-headline display-4">About me</h3>
-               <p class="write-up">Championing and showcasing Visual Design and Digital Media are some of my most rewarding accomplishments. I invite you to learn more about my work and how I came up with the name Ace.
-        </p>
-            <a class="btn btn-light text-black btn-lg rounded-0 mt-4" href="about.html" role="button">Learn More</a>
-            </div>
+          <div class="col-lg-4 d-flex align-content-center flex-wrap pb-4">
+            <img src="img/bio-purple.png" class="img-fluid pt-4" alt="..." />
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-7 d-flex align-content-center flex-wrap">
+            <h3 class="text-white mb-3 san-serif-headline display-4">
+              About me
+            </h3>
+            <p class="write-up">
+              Championing and showcasing Visual Design and Digital Media are
+              some of my most rewarding accomplishments. I invite you to learn
+              more about my work and how I came up with the name Ace.
+            </p>
+            <a
+              class="btn btn-light text-black btn-lg rounded-0 mt-4"
+              href="about.html"
+              role="button"
+              >Learn More</a
+            >
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section class="bg-black">
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center pt-5 pb-5">
-            <p class="col-md-4 mb-0 text-white">© 2022 Arthur Charles Edwards</p>
+    <section class="bg-black">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center pt-5 pb-5"
+        >
+          <p class="col-md-4 mb-0 text-white">© 2022 Arthur Charles Edwards</p>
         </footer>
-    </div>
-</section>
+      </div>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous">
-    </script>
-    <script src="js/dropper-nav.js">
-
-    </script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/dropper-nav.js"></script>
+  </body>
 </html>
