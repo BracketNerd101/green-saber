@@ -283,6 +283,9 @@
   justify-content: center;
   flex-direction: column;
 }
+.overlay .home-page-hero-text {
+  font-size: 6rem;
+}
 .overlay .custom-eyebrow {
   text-transform: uppercase;
   font-weight: 600;
