@@ -6,6 +6,11 @@
   margin-bottom: auto;
 }
 
+.thin-headlines {
+  font-family: "Poppins";
+  font-weight: 200;
+}
+
 .big-headlines {
   font-family: "Poppins";
   font-weight: 700;
