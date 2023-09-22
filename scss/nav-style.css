@@ -244,9 +244,18 @@
   padding-top: -3rem;
 }
 
+.about-intro-main {
+  height: inherit;
+  margin-bottom: 6.5rem;
+  padding-top: 4.5rem;
+}
+.about-intro-main .write-up {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
 .about-intro {
   height: inherit;
-  background-color: #111111;
   margin-bottom: auto;
   padding-top: 1.5rem;
 }

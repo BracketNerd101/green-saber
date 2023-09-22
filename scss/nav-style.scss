@@ -320,12 +320,28 @@ padding-top: 1.5rem;
 }
 
 
-// hero cover css 
+// hero cover css
+
+.about-intro-main {
+
+    height: inherit;
+    // background-color: #111111;
+    margin-bottom: 6.5rem;
+    padding-top: 4.5rem;
+    // padding-bottom: 6.5rem;
+
+
+    .write-up {
+
+        font-size: 1.3rem;
+        color: #ffffff;
+    }
+}
 
 .about-intro {
 
     height: inherit;
-    background-color: #111111;
+    // background-color: #111111;
     margin-bottom: auto;
     padding-top: 1.5rem;
 
