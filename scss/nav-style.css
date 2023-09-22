@@ -260,13 +260,12 @@
 }
 
 .big-image {
-  height: 100vh;
+  height: 75vh;
   width: 100%;
   position: relative;
   margin-bottom: 4rem;
-  background-size: cover;
-  background: #8D10D1;
-  background: linear-gradient(to bottom right, #2b0540, #d1177e);
+  background: #283c86; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .big-image-2 {
