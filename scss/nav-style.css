@@ -46,7 +46,7 @@
   color: #272727;
 }
 .nav-custom-styles a:hover {
-  color: #EB168C;
+  color: #4dc14f;
 }
 
 .offcanvas-header {
@@ -82,10 +82,10 @@
   margin-bottom: 0.5rem;
 }
 .thumb-titles h3:hover {
-  color: #EB168C;
+  color: #4dc14f;
 }
 .thumb-titles a:hover {
-  color: #EB168C;
+  color: #4dc14f;
 }
 
 .thumb-netsol {
@@ -263,7 +263,7 @@
   height: 75vh;
   width: 100%;
   position: relative;
-  margin-bottom: 4rem;
+  margin-bottom: auto;
   background: #283c86; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -344,8 +344,8 @@
 }
 
 .hero-subHeader-client {
-  font-size: 4rem;
+  font-size: 2rem;
   margin-top: 9vh;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   color: #ffffff;
 }/*# sourceMappingURL=nav-style.css.map */
