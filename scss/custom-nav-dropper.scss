@@ -29,7 +29,6 @@
 }
 
 
-
 #nav-dropper a {
   padding-right: 0.5rem;
   float: left;
@@ -56,4 +55,49 @@
     z-index: 9845654636436 ;
 
 
+}
+
+
+
+.black-box-style {
+  font-size: 3.7rem;
+  font-weight: 700;
+  font-family: "poppins";
+  color: #ffffff;
+  background-color: #000000;
+//   background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to right, #45a247, #283c86);
+  box-shadow: 7px 7px #ffffff;
+
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+
+
+}
+
+ .black-box-style:hover {
+
+  font-size: 3.7rem;
+  font-weight: 700;
+  font-family: "poppins";
+  color:  -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */;
+  
+  box-shadow: 7px 7px #ffffff;
+
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+
+
+  }
+
+.reverse-box-style {
+
+  font-size: 3.3rem;
+
+
+  
 }
