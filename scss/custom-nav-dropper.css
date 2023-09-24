@@ -48,8 +48,8 @@
   font-weight: 700;
   font-family: "poppins";
   color: #ffffff;
-  background-color: #000000;
-  box-shadow: 7px 7px #ffffff;
+  background: #000000; /* fallback for old browsers */
+  box-shadow: 7px 7px #cacaca;
   padding-left: 1.8rem;
   padding-right: 1.8rem;
   padding-top: 0.3rem;
@@ -73,9 +73,8 @@
   font-weight: 700;
   font-family: "poppins";
   color: #ffffff;
-  background: #283c86; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: 7px 7px #000000;
+  background: #000000; /* fallback for old browsers */
+  box-shadow: 7px 7px #cacaca;
   padding-left: 1.8rem;
   padding-right: 1.8rem;
   padding-top: 0.3rem;
@@ -87,13 +86,15 @@
   line-height: 5.6rem;
   font-weight: 700;
   font-family: "poppins";
-  color: #ffffff;
+  color: #FFFFFF;
   height: inherit;
-  background: #283c86; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: 17px 17px #000000;
+  background-color: #000000;
+  box-shadow: 17px 17px #cacaca;
   padding-left: 1.8rem;
   padding-right: 1.8rem;
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
+}
+.billboard-text .brand-neon {
+  color: #A5F721;
 }/*# sourceMappingURL=custom-nav-dropper.css.map */

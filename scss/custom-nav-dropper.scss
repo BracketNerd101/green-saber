@@ -1,3 +1,5 @@
+$neon-brand: #A5F721;
+
 #nav-dropper {
   background-color: #FFF;
   position: fixed;
@@ -64,10 +66,12 @@
   font-weight: 700;
   font-family: "poppins";
   color: #ffffff;
-  background-color: #000000;
-//   background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-// background: linear-gradient(to right, #45a247, #283c86);
-  box-shadow: 7px 7px #ffffff;
+
+  background: #000000;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  box-shadow: 7px 7px #cacaca;
 
   padding-left: 1.8rem;
   padding-right: 1.8rem;
@@ -101,11 +105,11 @@
   font-family: "poppins";
   color: #ffffff;
 
-  background: #283c86;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000000;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
-  box-shadow: 7px 7px #000000;
+  box-shadow: 7px 7px #cacaca;
 
   padding-left: 1.8rem;
   padding-right: 1.8rem;
@@ -121,17 +125,25 @@ background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, F
     line-height: 5.6rem;
     font-weight: 700;
     font-family: "poppins";
-    color: #ffffff;
+    color: #FFFFFF;
     height: inherit;
+    background-color: #000000;
 
-  background: #283c86;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//   background: #283c86;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-box-shadow: 17px 17px #000000;
+box-shadow: 17px 17px #cacaca;
 
   padding-left: 1.8rem;
   padding-right: 1.8rem;
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
+
+  .brand-neon {
+
+    color: #A5F721;
   }
+  
+}
+
