@@ -115,9 +115,30 @@ $neon-brand: #A5F721;
   padding-right: 1.8rem;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
-
   
 }
+
+ @media (max-width: 575.98px) {  
+
+  .reverse-box-style {
+
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    font-family: "poppins";
+    color: #FFFFFF;
+    height: inherit;
+    background-color: #000000;
+    box-shadow: 7px 7px #cacaca;
+
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+
+  }
+
+ }
 
 .billboard-text {
 
@@ -129,9 +150,6 @@ $neon-brand: #A5F721;
     height: inherit;
     background-color: #000000;
 
-//   background: #283c86;  /* fallback for old browsers */
-// background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-// background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 box-shadow: 17px 17px #cacaca;
 
@@ -140,6 +158,7 @@ box-shadow: 17px 17px #cacaca;
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
 
+
   .brand-neon {
 
     color: #A5F721;
@@ -147,3 +166,34 @@ box-shadow: 17px 17px #cacaca;
   
 }
 
+.brand-neon-hero {
+
+    background-color: #000000; 
+    box-shadow: 7px 7px #cacaca;
+    color: $neon-brand;
+    padding: 4px 6px 4px 6px;
+  }
+
+// MEDIA QUERY BELOW
+
+ @media (max-width: 575.98px) {  
+
+  .billboard-text {
+
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 700;
+    font-family: "poppins";
+    color: #FFFFFF;
+    height: inherit;
+    background-color: #000000;
+    box-shadow: 17px 17px #cacaca;
+
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+
+  }
+
+ }

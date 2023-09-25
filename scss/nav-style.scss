@@ -365,19 +365,26 @@ padding-top: 1.5rem;
   margin-bottom: auto;
 
   background-color: #FFF;
-//   background: #77BE05;  /* fallback for old browsers */
-// background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-// background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-//   background-size: cover;
-//       background: #8D10D1;
-//     background: -webkit-linear-gradient(top left, #8D10D1, #8255CE);
-//     background: -moz-linear-gradient(top left, #8D10D1, #8255CE);
-//     background: linear-gradient(to bottom right, #2b0540, #d1177e);
-//   background-position: 50% 50%;
-//   background-image: url("../img/homepage-hero.jpg") ;
 
 }
+
+@media (max-width: 575.98px) {  
+
+  .big-image {
+  height: 85vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: auto;
+
+  background-color: #FFF;
+
+
+}
+
+ }
+
+
 .big-image-2 {
   height: 45vh;
   width: 100%;

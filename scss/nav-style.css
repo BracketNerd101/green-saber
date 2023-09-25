@@ -276,6 +276,15 @@
   background-color: #FFF;
 }
 
+@media (max-width: 575.98px) {
+  .big-image {
+    height: 85vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: auto;
+    background-color: #FFF;
+  }
+}
 .big-image-2 {
   height: 45vh;
   width: 100%;
