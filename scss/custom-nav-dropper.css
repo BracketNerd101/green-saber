@@ -56,18 +56,20 @@
   padding-bottom: 0.3rem;
 }
 
-.black-box-style:hover {
-  font-size: 3.7rem;
-  font-weight: 700;
-  font-family: "poppins";
-  color: -webkit-linear-gradient(to right, #45a247, #283c86); /* Chrome 10-25, Safari 5.1-6 */
-  box-shadow: 7px 7px #ffffff;
-  padding-left: 1.8rem;
-  padding-right: 1.8rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+@media (max-width: 575.98px) {
+  .black-box-style {
+    font-size: 3.7rem;
+    font-weight: 700;
+    font-family: "poppins";
+    color: #ffffff;
+    background: #000000; /* fallback for old browsers */
+    box-shadow: 7px 7px #cacaca;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
 }
-
 .reverse-box-style {
   font-size: 3.7rem;
   font-weight: 700;
