@@ -1,16 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .custom-dark {
-
-    background-color: #f1efef;
+  background-color: #f1efef;
 }
 
 .custom-purple {
-
-  background-color: #EB168C;
+  background-color: #eb168c;
 }
-
 
 .big-about {
   height: 45vh;
@@ -20,23 +16,15 @@
   background-position: 50% 50%;
   background-image: url("../img/single-headshot-bio.png");
 
-
-.custom-eyebrow { 
-    
+  .custom-eyebrow {
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-
-}
-
-
-.custom-eyebrow { 
-    
-    text-transform: uppercase ;
-
   }
 
+  .custom-eyebrow {
+    text-transform: uppercase;
+  }
 }
-
 
 .big-about-mobile {
   height: 60vh;
@@ -46,39 +34,28 @@
   background-position: 50% 50%;
   background-image: url("../img/mobile-about-img.png");
 
-
-.custom-eyebrow { 
-    
+  .custom-eyebrow {
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
+  }
 
-}
-
-
-.custom-eyebrow { 
-    
-    text-transform: uppercase ;
-
+  .custom-eyebrow {
+    text-transform: uppercase;
   }
 }
 
 //  BlueHost Product page CSS ///
 
 #blue-final {
-      background-color: #2b2b2b ;
+  background-color: #2b2b2b;
+}
 
+.blue-presentation {
+  background-color: #2e4464;
+  height: inherit;
 
-     }
-
-     .blue-presentation {
-
-     background-color: #2E4464;
-     height:      inherit;
-
-     padding-top: 4rem;
-     padding-bottom: 4rem;
-
-
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .big-bluehost {
@@ -89,37 +66,26 @@
   background-position: 50% 50%;
   background-image: url("../img/blue-img/blue-hero-3.png");
 
-
-.custom-eyebrow { 
-    
+  .custom-eyebrow {
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-
-}
-
-#dmn-final {
-      background-color: #680303 ;
-
-
-     }
-
-
-.custom-eyebrow { 
-    
-    text-transform: uppercase ;
-
   }
 
+  #dmn-final {
+    background-color: #680303;
+  }
+
+  .custom-eyebrow {
+    text-transform: uppercase;
+  }
 }
 
 /// Domain service product page CSS //////////////
-/// 
+///
 
 #dmn-final {
-      background-color: #570202 ;
-
-
-     }
+  background-color: #570202;
+}
 
 .big-dmn-serv {
   height: 99vh;
@@ -129,228 +95,176 @@
   background-position: 50% 50%;
   background-image: url("../img/dmn-serv-img/dmn-hero-3.png");
 
-
-.custom-eyebrow { 
-    
+  .custom-eyebrow {
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-
-}
-
-#dmn-final {
-      background-color: #2b2b2b ;
-
-
-     }
-
-
-.custom-eyebrow { 
-    
-    text-transform: uppercase ;
-
   }
 
+  #dmn-final {
+    background-color: #2b2b2b;
+  }
+
+  .custom-eyebrow {
+    text-transform: uppercase;
+  }
 }
 
 // web.com black friday campaign
 
-.big-web-social  {
- 
+.big-web-social {
   height: 99vh;
   width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
   background-image: url("../img/dmn-img/award-2.png");
-    
-    .custom-eyebrow  {
 
+  .custom-eyebrow {
     text-transform: uppercase;
     font-weight: 600;
-  
-    font-family: "Poppins", sans-serif;
- }
 
+    font-family: "Poppins", sans-serif;
+  }
 }
 
 .overlay-dmn {
-  
-  height:          100%;
-  width:           100%;
-  top:             0;
-  left:            0;
-  color:           #FFFFFF;
-  display:         flex;
-  align-items:     center;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  flex-direction:  column;
-
+  flex-direction: column;
 }
 
- .web-presentation {
+.web-presentation {
+  background-color: #fff;
+  height: inherit;
 
-     background-color: #FFF;
-     height:      inherit;
-
-     padding-top: 4rem;
-     padding-bottom: 4rem;
-
-
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 #web-final {
-      background-color: #0A39C9 ;
+  background-color: #0a39c9;
+}
 
-
-     }
-
-.big-web  {
-  
+.big-web {
   height: 99vh;
   width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
   background-color: #131313;
-    
-    .custom-eyebrow  {
 
+  .custom-eyebrow {
     text-transform: uppercase;
     font-weight: 600;
-  
-    font-family: "Poppins", sans-serif;
- }
 
+    font-family: "Poppins", sans-serif;
+  }
 }
 
 .content-styles-deliver-web {
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+  background-color: #0a39c9;
 
-    padding-bottom: 8rem;
-    padding-top:    8rem;
-    background-color: #0A39C9 ;
-
-    .netsol-laptop-intro-style {
-
+  .netsol-laptop-intro-style {
     margin-top: 3rem;
     margin-bottom: auto;
-}
-
-    .intro-asset-style {
-
-            margin-bottom: -7rem;
-
-    }
-
-
-    .bill-laptop-intro-style-image {
-
-    margin-bottom: -14rem;
-}
-
   }
 
-.overlay-web {
-  
-  height:          100%;
-  width:           100%;
-  top:             0;
-  left:            0;
-  color:           #767676;
-  display:         flex;
-  align-items:     center;
-  justify-content: center;
-  flex-direction:  column;
+  .intro-asset-style {
+    margin-bottom: -7rem;
+  }
 
+  .bill-laptop-intro-style-image {
+    margin-bottom: -14rem;
+  }
+}
+
+.overlay-web {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: #767676;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 // Domain-search Code proj css
 
-.big-domain-social  {
- 
+.big-domain-social {
   height: 99vh;
   width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
   background-image: url("../img/dmn-img/award-2.png");
-    
-    .custom-eyebrow  {
 
+  .custom-eyebrow {
     text-transform: uppercase;
     font-weight: 600;
-  
-    font-family: "Poppins", sans-serif;
- }
 
+    font-family: "Poppins", sans-serif;
+  }
 }
 
-.big-domain  {
-  
+.big-domain {
   height: 99vh;
   width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
   background-image: url("../img/dmn-img/domain-cover.svg");
-    
-    .custom-eyebrow  {
 
+  .custom-eyebrow {
     text-transform: uppercase;
     font-weight: 600;
-  
-    font-family: "Poppins", sans-serif;
-}
 
+    font-family: "Poppins", sans-serif;
+  }
 }
 
 .fis-deliverables {
+  background-color: #89b0ae;
+  height: inherit;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 
-     background-color: #89B0AE ;
-     height:      inherit;
-     padding-top: 4rem;
-     padding-bottom: 4rem;
-
-     .fis-padding {
-
-      padding-top: 4rem;
-     
-    }
-
+  .fis-padding {
+    padding-top: 4rem;
+  }
 }
 
-
 .fis-green-color {
-
   background-color: #012834;
- 
 }
 
 .dmn-red-color {
-
-  background-color: #B63837;
- 
+  background-color: #b63837;
 }
 
 .dmn-presentation {
+  background-color: #f2f2f2;
+  height: inherit;
 
-     background-color: #f2f2f2;
-     height:      inherit;
+  padding-top: 9rem;
 
-     padding-top: 9rem;
-
-     .dmn-padding {
-
-      padding-top: 4.5rem;
-     
-    }
-
+  .dmn-padding {
+    padding-top: 4.5rem;
+  }
 }
 
+// Glados Code proj css
 
-
-// Glados Code proj css 
-
-.big-glados  {
+.big-glados {
   height: 99vh;
   width: 100%;
   position: relative;
@@ -358,27 +272,22 @@
   background-position: 50% 50%;
   background-color: #2d3436;
   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
-    
-    .custom-eyebrow  {
 
+  .custom-eyebrow {
     text-transform: uppercase;
     font-weight: 600;
-  
+
     font-family: "Poppins", sans-serif;
+  }
 }
 
+.glados-presentation {
+  background-color: #191919;
+  height: inherit;
+
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
-
- .glados-presentation {
-
-     background-color: #191919;
-     height:      inherit;
-
-     padding-top: 4rem;
-     padding-bottom: 4rem;
-
-}
-
 
 // Billing  App CSS /////////////
 
@@ -388,70 +297,51 @@
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  
+
   background-image: url("../img/bill-refresh/chill-payment.jpg");
 
-
-.custom-eyebrow { 
-    
+  .custom-eyebrow {
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-
-}
-
-
-.custom-eyebrow { 
-    
-    text-transform: uppercase ;
-
   }
 
+  .custom-eyebrow {
+    text-transform: uppercase;
+  }
 }
 
-  .billing-presentation {
+.billing-presentation {
+  background-color: #003c7c;
+  height: inherit;
 
-     background-color: #003C7C;
-     height:      inherit;
-
-     padding-top: 4rem;
-     padding-bottom: 4rem;
-
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .content-styles-deliver-bill {
+  padding-bottom: 8rem;
+  padding-top: 8rem;
 
-    padding-bottom: 8rem;
-    padding-top:    8rem;
-
-    .netsol-laptop-intro-style {
-
+  .netsol-laptop-intro-style {
     margin-top: 3rem;
     margin-bottom: auto;
-}
+  }
 
-    .intro-asset-style {
+  .intro-asset-style {
+    margin-bottom: -7rem;
+  }
 
-            margin-bottom: -7rem;
-
-    }
-
-
-    .bill-laptop-intro-style-image {
-
+  .bill-laptop-intro-style-image {
     margin-bottom: -14rem;
+  }
 }
 
-  }
+.custom-billing-seperator {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
 
-  .custom-billing-seperator {
-
-    margin-top:    4rem;
-    margin-bottom: 4rem;
-
-  }
-
-
-  .big-fis {
+.big-fis {
   height: 99vh;
   width: 100%;
   position: relative;
@@ -459,25 +349,18 @@
   background-position: 50% 50%;
   background-image: url("../img/fis-img/fis-cover.png");
 
-.custom-eyebrow { 
-    
-    
-    text-transform: uppercase ;
+  .custom-eyebrow {
+    text-transform: uppercase;
     font-weight: 500;
-
-}
-
-
-.custom-eyebrow { 
-    
-    text-transform: uppercase ;
-    font-weight: 500;
-
   }
 
+  .custom-eyebrow {
+    text-transform: uppercase;
+    font-weight: 500;
+  }
 }
 
-// Network solutions css 
+// Network solutions css
 
 .big-netsol {
   height: 99vh;
@@ -487,26 +370,18 @@
   background-position: 50% 50%;
   background-image: url("../img/netsol-img/netsol-cover.jpg");
 
-.custom-eyebrow { 
-    
-    
-    text-transform: uppercase ;
+  .custom-eyebrow {
+    text-transform: uppercase;
     font-weight: 500;
-
-}
-
-
-.custom-eyebrow { 
-    
-    text-transform: uppercase ;
-    font-weight: 500;
-
   }
 
+  .custom-eyebrow {
+    text-transform: uppercase;
+    font-weight: 500;
+  }
 }
 
-// Google Workspace CSS 
-
+// Google Workspace CSS
 
 .big-workspace {
   height: 99vh;
@@ -514,161 +389,117 @@
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  background-color: #F4C20D;
+  background-color: #f4c20d;
 
-
-
-.custom-eyebrow { 
-    
-    text-transform: uppercase ;
-
+  .custom-eyebrow {
+    text-transform: uppercase;
   }
-
-
 
   .overlay-workspace {
-  
-  height:          100%;
-  width:           100%;
-  top:             0;
-  left:            0;
-  color:         #000000;
-  display:         flex;
-  align-items:     center;
-  justify-content: center;
-  flex-direction:  column;
-
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
-
 }
-
 
 .content-styles-deliver-workspace {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  background-color: #0f9d58;
 
-    padding-bottom: 4rem;
-    padding-top:    4rem;
-    background-color: #0F9D58;
-
-    .netsol-laptop-intro-style {
-
+  .netsol-laptop-intro-style {
     margin-top: 5rem;
-}
-
-    .intro-asset-style {
-
-            margin-bottom: -8rem;
-    }
-
   }
 
-  .google-presentation {
+  .intro-asset-style {
+    margin-bottom: -8rem;
+  }
+}
 
-     background-color: #404040;
-     height:      inherit;
+.google-presentation {
+  background-color: #404040;
+  height: inherit;
 
-     padding-top: 4rem;
-     padding-bottom: 4rem;
-
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .netsol-presentation {
+  background-color: #f2f2f2;
+  height: inherit;
 
-     background-color: #f2f2f2;
-     height:      inherit;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 
-     padding-top: 4rem;
-     padding-bottom: 4rem;
-
-     .project-spacer {
-
-         padding-top: 4.5rem;
-
-     }
-
-
+  .project-spacer {
+    padding-top: 4.5rem;
+  }
 }
 
 .workspace-presentation-deliverables {
-
-    background-color: #0F9D58;
-     height:      inherit;
-     padding-top: 4rem;
-     padding-bottom: 4rem;
-
-
+  background-color: #0f9d58;
+  height: inherit;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .netsol-presentation-deliverables {
-
-     background-color: #89B0AE ;
-     height:      inherit;
-     padding-top: 4rem;
-     padding-bottom: 4rem;
-
-
+  background-color: #89b0ae;
+  height: inherit;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .google-presentation-deliverables {
-
-     background-color: #89B0AE ;
-     height:      inherit;
-     padding-top: 4rem;
-     padding-bottom: 4rem;
-
-
+  background-color: #89b0ae;
+  height: inherit;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
-
 .billing-presentation-deliverables {
-
-     background-color: #89B0AE ;
-     height:      inherit;
-     padding-top: 4rem;
-     padding-bottom: 4rem;
-
-
+  background-color: #89b0ae;
+  height: inherit;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .intro-project {
-  
   height: inherit;
   background-color: #ffffff;
   padding-bottom: 5rem;
-  padding-top:    5rem;
+  padding-top: 5rem;
 
   .content-styles {
-
-     padding-bottom: 5.5rem ;
-
-  
-    }
-  
+    padding-bottom: 5.5rem;
+  }
 }
 
 .netsol-laptop-intro-style {
-
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .netsol-laptop-intro-style-image {
-
-    // margin-top: 4rem;
-    margin-bottom: -9rem;
+  // margin-top: 4rem;
+  margin-bottom: -9rem;
 }
 
- .content-styles {
-
-    padding-bottom: 8rem;
-    padding-top:    8rem;
-  
+.content-styles {
+  padding-bottom: 8rem;
+  padding-top: 8rem;
 }
 
-  .content-styles-deliver {
-
-    padding-bottom: 4rem;
-    padding-top:    4rem;
-  }
+.content-styles-deliver {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
 
 // .cover-text {
 
@@ -676,15 +507,13 @@
 // }
 
 .overlay-netsol {
-  
-  height:          100%;
-  width:           100%;
-  top:             0;
-  left:            0;
-  color:         white;
-  display:         flex;
-  align-items:     center;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  flex-direction:  column;
-
+  flex-direction: column;
 }

@@ -1,7 +1,7 @@
-$neon-brand: #A5F721;
+$neon-brand: #a5f721;
 
 #nav-dropper {
-  background-color: #FFF;
+  background-color: #fff;
   position: fixed;
   top: -130px;
   width: 100%;
@@ -11,25 +11,18 @@ $neon-brand: #A5F721;
   z-index: 845654636436;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 
   .plus-button-style {
-
-        height:      3rem;
-        padding-top: 0.13rem;
-        color: #4dc14f;
-
+    height: 3rem;
+    padding-top: 0.13rem;
+    color: #4dc14f;
   }
 
   .dropper-logo-style {
-
-       height: 3rem;
-
-
+    height: 3rem;
   }
-
 }
-
 
 #nav-dropper a {
   padding-right: 0.5rem;
@@ -44,22 +37,16 @@ $neon-brand: #A5F721;
 
 #nav-dropper a:hover {
   // color: #EB168C;
-  color:#4dc14f;
+  color: #4dc14f;
 }
 
 .special-side-nav-layer {
-
-    z-index: 9845654636436 ;
+  z-index: 9845654636436;
 }
 
 #offcanvasRight {
-
-    z-index: 9845654636436 ;
-
-
+  z-index: 9845654636436;
 }
-
-
 
 .black-box-style {
   font-size: 3.7rem;
@@ -67,53 +54,45 @@ $neon-brand: #A5F721;
   font-family: "poppins";
   color: #ffffff;
 
-  background: #000000;  /* fallback for old browsers */
-// background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-// background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #000000; /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   box-shadow: 7px 7px #cacaca;
 
   padding-left: 1.8rem;
   padding-right: 1.8rem;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
-
-
 }
 
-@media (max-width: 575.98px) {  
-
+@media (max-width: 575.98px) {
   .black-box-style {
-  font-size: 3.7rem;
-  font-weight: 700;
-  font-family: "poppins";
-  color: #ffffff;
+    font-size: 3.7rem;
+    font-weight: 700;
+    font-family: "poppins";
+    color: #ffffff;
 
-  background: #000000;  /* fallback for old browsers */
-  
-  box-shadow: 7px 7px #cacaca;
-  padding-left: 1.8rem;
-  padding-right: 1.8rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+    background: #000000; /* fallback for old browsers */
 
-
-    }
-
- }
-
+    box-shadow: 7px 7px #cacaca;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+}
 
 .reverse-box-style {
-
   font-size: 3.7rem;
   font-weight: 700;
   font-family: "poppins";
   color: #ffffff;
 
-  background: #000000;  /* fallback for old browsers */
-// background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-// background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #000000; /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   box-shadow: 7px 7px #cacaca;
 
   padding-left: 1.8rem;
@@ -121,24 +100,21 @@ $neon-brand: #A5F721;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   transition: 0.8s;
-  
 }
 
-// LOGO HOVER EFFECT   
+// LOGO HOVER EFFECT
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
 .reverse-box-style:hover {
-
   font-size: 3.7rem;
   font-weight: 700;
   font-family: "poppins";
-  color: #A5F721;
+  color: #a5f721;
 
-  background: #000000;  /* fallback for old browsers */
-// background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-// background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #000000; /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   box-shadow: none;
 
   padding-left: 1.8rem;
@@ -146,18 +122,15 @@ $neon-brand: #A5F721;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   transition: 0.8s;
-  
 }
 
- @media (max-width: 575.98px) {  
-
+@media (max-width: 575.98px) {
   .reverse-box-style {
-
     font-size: 2rem;
     line-height: 2rem;
     font-weight: 700;
     font-family: "poppins";
-    color: #FFFFFF;
+    color: #ffffff;
     height: inherit;
     background-color: #000000;
     box-shadow: 7px 7px #cacaca;
@@ -166,56 +139,46 @@ $neon-brand: #A5F721;
     padding-right: 0.6rem;
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
-
   }
-
- }
+}
 
 .billboard-text {
+  font-size: 7rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  font-family: "poppins";
+  color: #ffffff;
+  height: inherit;
+  background-color: #000000;
 
-    font-size: 7rem;
-    line-height: 5.6rem;
-    font-weight: 700;
-    font-family: "poppins";
-    color: #FFFFFF;
-    height: inherit;
-    background-color: #000000;
-
-
-box-shadow: 17px 17px #cacaca;
+  box-shadow: 17px 17px #cacaca;
 
   padding-left: 1.8rem;
   padding-right: 1.8rem;
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
 
-
   .brand-neon {
-
-    color: #A5F721;
+    color: #a5f721;
   }
-  
 }
 
 .brand-neon-hero {
-
-    background-color: #000000; 
-    box-shadow: 7px 7px #cacaca;
-    color: $neon-brand;
-    padding: 4px 6px 4px 6px;
-  }
+  background-color: #000000;
+  box-shadow: 7px 7px #cacaca;
+  color: $neon-brand;
+  padding: 4px 6px 4px 6px;
+}
 
 // MEDIA QUERY BELOW
 
- @media (max-width: 575.98px) {  
-
+@media (max-width: 575.98px) {
   .billboard-text {
-
     font-size: 4rem;
     line-height: 4rem;
     font-weight: 700;
     font-family: "poppins";
-    color: #FFFFFF;
+    color: #ffffff;
     height: inherit;
     background-color: #000000;
     box-shadow: 17px 17px #cacaca;
@@ -224,7 +187,5 @@ box-shadow: 17px 17px #cacaca;
     padding-right: 1.8rem;
     padding-top: 1.3rem;
     padding-bottom: 1.3rem;
-
   }
-
- }
+}

@@ -1,5 +1,5 @@
 #nav-dropper {
-  background-color: #FFF;
+  background-color: #fff;
   position: fixed;
   top: -130px;
   width: 100%;
@@ -88,7 +88,7 @@
   font-size: 3.7rem;
   font-weight: 700;
   font-family: "poppins";
-  color: #A5F721;
+  color: #a5f721;
   background: #000000; /* fallback for old browsers */
   box-shadow: none;
   padding-left: 1.8rem;
@@ -104,7 +104,7 @@
     line-height: 2rem;
     font-weight: 700;
     font-family: "poppins";
-    color: #FFFFFF;
+    color: #ffffff;
     height: inherit;
     background-color: #000000;
     box-shadow: 7px 7px #cacaca;
@@ -119,7 +119,7 @@
   line-height: 5.6rem;
   font-weight: 700;
   font-family: "poppins";
-  color: #FFFFFF;
+  color: #ffffff;
   height: inherit;
   background-color: #000000;
   box-shadow: 17px 17px #cacaca;
@@ -129,13 +129,13 @@
   padding-bottom: 1.3rem;
 }
 .billboard-text .brand-neon {
-  color: #A5F721;
+  color: #a5f721;
 }
 
 .brand-neon-hero {
   background-color: #000000;
   box-shadow: 7px 7px #cacaca;
-  color: #A5F721;
+  color: #a5f721;
   padding: 4px 6px 4px 6px;
 }
 
@@ -145,7 +145,7 @@
     line-height: 4rem;
     font-weight: 700;
     font-family: "poppins";
-    color: #FFFFFF;
+    color: #ffffff;
     height: inherit;
     background-color: #000000;
     box-shadow: 17px 17px #cacaca;

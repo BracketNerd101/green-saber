@@ -4,7 +4,7 @@
 }
 
 .custom-purple {
-  background-color: #EB168C;
+  background-color: #eb168c;
 }
 
 .big-about {
@@ -44,7 +44,7 @@
 }
 
 .blue-presentation {
-  background-color: #2E4464;
+  background-color: #2e4464;
   height: inherit;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -111,7 +111,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,14 +119,14 @@
 }
 
 .web-presentation {
-  background-color: #FFF;
+  background-color: #fff;
   height: inherit;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
 #web-final {
-  background-color: #0A39C9;
+  background-color: #0a39c9;
 }
 
 .big-web {
@@ -146,7 +146,7 @@
 .content-styles-deliver-web {
   padding-bottom: 8rem;
   padding-top: 8rem;
-  background-color: #0A39C9;
+  background-color: #0a39c9;
 }
 .content-styles-deliver-web .netsol-laptop-intro-style {
   margin-top: 3rem;
@@ -200,7 +200,7 @@
 }
 
 .fis-deliverables {
-  background-color: #89B0AE;
+  background-color: #89b0ae;
   height: inherit;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -214,7 +214,7 @@
 }
 
 .dmn-red-color {
-  background-color: #B63837;
+  background-color: #b63837;
 }
 
 .dmn-presentation {
@@ -265,7 +265,7 @@
 }
 
 .billing-presentation {
-  background-color: #003C7C;
+  background-color: #003c7c;
   height: inherit;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -331,7 +331,7 @@
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  background-color: #F4C20D;
+  background-color: #f4c20d;
 }
 .big-workspace .custom-eyebrow {
   text-transform: uppercase;
@@ -351,7 +351,7 @@
 .content-styles-deliver-workspace {
   padding-bottom: 4rem;
   padding-top: 4rem;
-  background-color: #0F9D58;
+  background-color: #0f9d58;
 }
 .content-styles-deliver-workspace .netsol-laptop-intro-style {
   margin-top: 5rem;
@@ -378,28 +378,28 @@
 }
 
 .workspace-presentation-deliverables {
-  background-color: #0F9D58;
+  background-color: #0f9d58;
   height: inherit;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
 .netsol-presentation-deliverables {
-  background-color: #89B0AE;
+  background-color: #89b0ae;
   height: inherit;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
 .google-presentation-deliverables {
-  background-color: #89B0AE;
+  background-color: #89b0ae;
   height: inherit;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
 .billing-presentation-deliverables {
-  background-color: #89B0AE;
+  background-color: #89b0ae;
   height: inherit;
   padding-top: 4rem;
   padding-bottom: 4rem;
