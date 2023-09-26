@@ -81,6 +81,21 @@
   padding-right: 1.8rem;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
+  transition: 0.8s;
+}
+
+.reverse-box-style:hover {
+  font-size: 3.7rem;
+  font-weight: 700;
+  font-family: "poppins";
+  color: #A5F721;
+  background: #000000; /* fallback for old browsers */
+  box-shadow: none;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  transition: 0.8s;
 }
 
 @media (max-width: 575.98px) {
