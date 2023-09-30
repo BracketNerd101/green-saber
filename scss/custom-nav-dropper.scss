@@ -1,4 +1,5 @@
 $neon-brand: #a5f721;
+  
 
 #nav-dropper {
   background-color: #fff;
@@ -151,7 +152,7 @@ $neon-brand: #a5f721;
   height: inherit;
   background-color: #000000;
 
-  box-shadow: 17px 17px #cacaca;
+  box-shadow: 17px 17px #ffffff;
 
   padding-left: 1.8rem;
   padding-right: 1.8rem;
@@ -159,18 +160,38 @@ $neon-brand: #a5f721;
   padding-bottom: 1.3rem;
 
   .brand-neon {
-    color: #a5f721;
+    // color: #a5f721;
+    color: #2BFF88;
   }
 }
 
 .brand-neon-hero {
   background-color: #000000;
+  // box-shadow: 7px 7px #cacaca;
   box-shadow: 7px 7px #cacaca;
   color: $neon-brand;
   padding: 4px 6px 4px 6px;
 }
 
 // MEDIA QUERY BELOW
+
+@media (max-width: 767.98px) {
+  .billboard-text {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    font-weight: 700;
+    font-family: "poppins";
+    color: #ffffff;
+    height: inherit;
+    background-color: #aa3232;
+    box-shadow: 17px 17px #cacaca;
+
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+  }
+}
 
 @media (max-width: 575.98px) {
   .billboard-text {
@@ -181,7 +202,7 @@ $neon-brand: #a5f721;
     color: #ffffff;
     height: inherit;
     background-color: #000000;
-    box-shadow: 17px 17px #cacaca;
+    box-shadow: 17px 17px #ffffff;
 
     padding-left: 1.8rem;
     padding-right: 1.8rem;
