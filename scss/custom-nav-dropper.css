@@ -11,11 +11,13 @@
   padding-bottom: 1.5rem;
   font-family: "Open Sans", sans-serif;
 }
+
 #nav-dropper .plus-button-style {
   height: 3rem;
   padding-top: 0.13rem;
   color: #4dc14f;
 }
+
 #nav-dropper .dropper-logo-style {
   height: 3rem;
 }
@@ -48,7 +50,8 @@
   font-weight: 700;
   font-family: "poppins";
   color: #ffffff;
-  background: #000000; /* fallback for old browsers */
+  background: #000000;
+  /* fallback for old browsers */
   box-shadow: 7px 7px #cacaca;
   padding-left: 1.8rem;
   padding-right: 1.8rem;
@@ -62,7 +65,8 @@
     font-weight: 700;
     font-family: "poppins";
     color: #ffffff;
-    background: #000000; /* fallback for old browsers */
+    background: #000000;
+    /* fallback for old browsers */
     box-shadow: 7px 7px #cacaca;
     padding-left: 1.8rem;
     padding-right: 1.8rem;
@@ -70,12 +74,14 @@
     padding-bottom: 0.3rem;
   }
 }
+
 .reverse-box-style {
   font-size: 3.7rem;
   font-weight: 700;
   font-family: "poppins";
   color: #ffffff;
-  background: #000000; /* fallback for old browsers */
+  background: #000000;
+  /* fallback for old browsers */
   box-shadow: 7px 7px #cacaca;
   padding-left: 1.8rem;
   padding-right: 1.8rem;
@@ -89,7 +95,8 @@
   font-weight: 700;
   font-family: "poppins";
   color: #a5f721;
-  background: #000000; /* fallback for old browsers */
+  background: #000000;
+  /* fallback for old browsers */
   box-shadow: none;
   padding-left: 1.8rem;
   padding-right: 1.8rem;
@@ -114,6 +121,7 @@
     padding-bottom: 0.5rem;
   }
 }
+
 .billboard-text {
   font-size: 7rem;
   line-height: 5.6rem;
@@ -128,6 +136,7 @@
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
 }
+
 .billboard-text .brand-neon {
   color: #2BFF88;
 }
@@ -155,6 +164,7 @@
     padding-bottom: 1.3rem;
   }
 }
+
 @media (max-width: 575.98px) {
   .billboard-text {
     font-size: 4rem;
@@ -170,4 +180,4 @@
     padding-top: 1.3rem;
     padding-bottom: 1.3rem;
   }
-}/*# sourceMappingURL=custom-nav-dropper.css.map */
+}
