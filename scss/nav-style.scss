@@ -363,12 +363,17 @@ padding-top: 1.5rem;
   width: 100%;
   position: relative;
   margin-bottom: auto;
-//   background-image: linear-gradient( 117deg,  rgba(123,216,96,1) 39.2%, rgba(255,255,255,1) 156.2% );
+//   Fancy Gradient Below
+////////////////////////////////////////////////////////////////////////////
+/// 
 
-  background-color: #ffffff;
+background-image: radial-gradient(circle at 97% 32%, rgba(131, 131, 131,0.05) 0%, rgba(131, 131, 131,0.05) 50%,rgba(20, 20, 20,0.05) 50%, rgba(20, 20, 20,0.05) 100%),radial-gradient(circle at 61% 40%, rgba(35, 35, 35,0.05) 0%, rgba(35, 35, 35,0.05) 50%,rgba(239, 239, 239,0.05) 50%, rgba(239, 239, 239,0.05) 100%),radial-gradient(circle at 47% 73%, rgba(122, 122, 122,0.05) 0%, rgba(122, 122, 122,0.05) 50%,rgba(5, 5, 5,0.05) 50%, rgba(5, 5, 5,0.05) 100%),linear-gradient(90deg, rgb(0, 209, 117),rgb(205, 241, 44));
+
 
 
 }
+
+
 
 @media (max-width: 575.98px) {  
 
@@ -378,8 +383,11 @@ padding-top: 1.5rem;
   position: relative;
   margin-bottom: auto;
 
-  background-color: #FFF;
+//   Fancy Gradient Below
+////////////////////////////////////////////////////////////////////////////
+/// 
 
+background-image: radial-gradient(circle at 97% 32%, rgba(131, 131, 131,0.05) 0%, rgba(131, 131, 131,0.05) 50%,rgba(20, 20, 20,0.05) 50%, rgba(20, 20, 20,0.05) 100%),radial-gradient(circle at 61% 40%, rgba(35, 35, 35,0.05) 0%, rgba(35, 35, 35,0.05) 50%,rgba(239, 239, 239,0.05) 50%, rgba(239, 239, 239,0.05) 100%),radial-gradient(circle at 47% 73%, rgba(122, 122, 122,0.05) 0%, rgba(122, 122, 122,0.05) 50%,rgba(5, 5, 5,0.05) 50%, rgba(5, 5, 5,0.05) 100%),linear-gradient(90deg, rgb(0, 209, 117),rgb(205, 241, 44));
 
 }
 
