@@ -1,6 +1,7 @@
 $neon-brand: #a5f721;
   
 
+
 #nav-dropper {
   background-color: #fff;
   position: fixed;
@@ -110,7 +111,7 @@ $neon-brand: #a5f721;
   font-size: 3.7rem;
   font-weight: 700;
   font-family: "poppins";
-  color: #a5f721;
+  color: $neon-brand;
 
   background: #000000; /* fallback for old browsers */
   // background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
