@@ -12,7 +12,7 @@
 .news-card {
   
   margin: 0.5rem;
-  height: 12rem;
+  height: 25rem;
   overflow: hidden;
   border-radius: 0rem;
   flex: 1;
@@ -27,7 +27,7 @@
 @media (min-width: 900px) {
 
 .news-card {
-    height: 20rem
+    height: 25rem
 }
   }
 
@@ -136,187 +136,4 @@
       color: yellow;
     }
 
-
-    // Square Thumbnail Alternative 
-    /////////////////////////////////////////////////////////////////////////////////////////////
-
-    .thumb-netsol-2 {
-
-    background: url("../img/netsol-thumb.jpg") center / cover no-repeat; 
-    
-    height: 26rem;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 100%;
-    z-index: -3;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 100%;
-    
-}
-
-.thumb-web-friday-2 {
-
-    background: url("../img/web-img/wall-1.svg") center / cover no-repeat; 
-    
-    height: 26rem;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 100%;
-    z-index: -3;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 100%;
-    
-}
-
-.thumb-dmn-service-2 {
-
-    background: url("../img/dmn-serv-img/dmn-hero-3.png") center / cover no-repeat; 
-    
-    height: 26rem;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 100%;
-    z-index: -3;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 100%;
-    
-}
-
-.thumb-web-blue-2 {
-
-    background: url("../img/blue-img/blue-hero-3.png") center / cover no-repeat;
-     
-    height: 26rem;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 100%;
-    z-index: -3;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 100%;
-    
-}
-
-.thumb-workspace-2 {
-
-    background: url("../img/google-thumb.jpg") center / cover no-repeat; 
-    
-    height: 26rem;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 100%;
-    z-index: -3;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 100%;
-    
-}
-
-.thumb-billing-2 {
-
-    background: url("../img/bill-refresh/Billing-black-bg.svg") center / cover no-repeat; 
-    
-    height: 26rem;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 100%;
-    z-index: -3;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 100%;
-    
-}
-
-.thumb-dmn-social-2 {
-
-    background: url("../img/dmn-img/award-2.png") center / cover no-repeat; 
-    
-    height: 26rem;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 100%;
-    z-index: -3;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 100%;
-    
-}
-
-.thumb-fis-2 {
-
-    background: url("../img/fis-img/light-fis-cover.png") center / cover no-repeat; 
-    
-    height: 26rem;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 100%;
-    z-index: -3;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 100%;
-    
-}
-
-.thumb-glados-2 {
-
-    background: url("../img/glados-thumb.png") center / cover no-repeat; 
-    
-    height: 26rem;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 100%;
-    z-index: -3;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 100%;
-    
-}
-
-.thumb-search-2 {
-
-    background: url("../img/dmn-img/light-domain-cover.jpg") center / cover no-repeat; 
-    
-    height: 26rem;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 100%;
-    z-index: -3;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 100%;
-    
-}
 
