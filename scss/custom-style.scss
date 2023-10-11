@@ -1,14 +1,23 @@
 
+.aqua-strip {
+
+    border-bottom: solid 8px rgb(3, 199, 193);
+}
+
+.purple-strip {
+
+    border-bottom: solid 8px rgb(92, 3, 177);
+}
 
 .news-card {
-  border: 0px solid aqua;
+  
   margin: 0.5rem;
   height: 12rem;
   overflow: hidden;
-  border-radius: 0.5rem;
+  border-radius: 0rem;
   flex: 1;
   min-width: 290px;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+//   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -webkit-transform: translate3d(0, 0, 0);
@@ -50,7 +59,7 @@
 .news-card__text-wrapper {
     position: absolute;
     bottom: 0rem;
-    padding: 1rem;
+    padding: 1.2rem;
     color: white;
 /*     background-color: rgba(0, 0, 0, 0.4); */
     transition: background-color 1.5s ease;
@@ -126,3 +135,188 @@
       left: 0.5rem;
       color: yellow;
     }
+
+
+    // Square Thumbnail Alternative 
+    /////////////////////////////////////////////////////////////////////////////////////////////
+
+    .thumb-netsol-2 {
+
+    background: url("../img/netsol-thumb.jpg") center / cover no-repeat; 
+    
+    height: 26rem;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    z-index: -3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    
+}
+
+.thumb-web-friday-2 {
+
+    background: url("../img/web-img/wall-1.svg") center / cover no-repeat; 
+    
+    height: 26rem;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    z-index: -3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    
+}
+
+.thumb-dmn-service-2 {
+
+    background: url("../img/dmn-serv-img/dmn-hero-3.png") center / cover no-repeat; 
+    
+    height: 26rem;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    z-index: -3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    
+}
+
+.thumb-web-blue-2 {
+
+    background: url("../img/blue-img/blue-hero-3.png") center / cover no-repeat;
+     
+    height: 26rem;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    z-index: -3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    
+}
+
+.thumb-workspace-2 {
+
+    background: url("../img/google-thumb.jpg") center / cover no-repeat; 
+    
+    height: 26rem;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    z-index: -3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    
+}
+
+.thumb-billing-2 {
+
+    background: url("../img/bill-refresh/Billing-black-bg.svg") center / cover no-repeat; 
+    
+    height: 26rem;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    z-index: -3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    
+}
+
+.thumb-dmn-social-2 {
+
+    background: url("../img/dmn-img/award-2.png") center / cover no-repeat; 
+    
+    height: 26rem;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    z-index: -3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    
+}
+
+.thumb-fis-2 {
+
+    background: url("../img/fis-img/light-fis-cover.png") center / cover no-repeat; 
+    
+    height: 26rem;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    z-index: -3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    
+}
+
+.thumb-glados-2 {
+
+    background: url("../img/glados-thumb.png") center / cover no-repeat; 
+    
+    height: 26rem;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    z-index: -3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    
+}
+
+.thumb-search-2 {
+
+    background: url("../img/dmn-img/light-domain-cover.jpg") center / cover no-repeat; 
+    
+    height: 26rem;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    z-index: -3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    
+}
+
