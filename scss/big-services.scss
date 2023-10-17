@@ -1,0 +1,62 @@
+.overlay-services {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: black;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+
+
+  .home-page-hero-text {
+
+
+    font-size: 4.0rem ;
+  }
+
+
+  .custom-eyebrow  {
+
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+}
+
+.big-service {
+  height: 45vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  
+
+  .custom-eyebrow {
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .custom-eyebrow {
+    text-transform: uppercase;
+  }
+}
+
+.big-service-mobile {
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../img/mobile-about-img.png");
+
+  .custom-eyebrow {
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .custom-eyebrow {
+    text-transform: uppercase;
+  }
+}
