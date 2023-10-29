@@ -232,8 +232,7 @@
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  background-color: #2d3436;
-  background-image: radial-gradient(circle at 24% 23%, rgba(167, 167, 167, 0.06) 0%, rgba(167, 167, 167, 0.06) 25%, rgba(148, 148, 148, 0.06) 25%, rgba(148, 148, 148, 0.06) 50%, rgba(129, 129, 129, 0.06) 50%, rgba(129, 129, 129, 0.06) 75%, rgba(110, 110, 110, 0.06) 75%, rgba(110, 110, 110, 0.06) 100%), radial-gradient(circle at 58% 30%, rgba(14, 14, 14, 0.06) 0%, rgba(14, 14, 14, 0.06) 25%, rgba(60, 60, 60, 0.06) 25%, rgba(60, 60, 60, 0.06) 50%, rgba(107, 107, 107, 0.06) 50%, rgba(107, 107, 107, 0.06) 75%, rgba(153, 153, 153, 0.06) 75%, rgba(153, 153, 153, 0.06) 100%), radial-gradient(circle at 79% 53%, rgba(225, 225, 225, 0.06) 0%, rgba(225, 225, 225, 0.06) 25%, rgba(189, 189, 189, 0.06) 25%, rgba(189, 189, 189, 0.06) 50%, rgba(152, 152, 152, 0.06) 50%, rgba(152, 152, 152, 0.06) 75%, rgba(116, 116, 116, 0.06) 75%, rgba(116, 116, 116, 0.06) 100%), linear-gradient(221deg, rgb(0, 0, 0), rgb(0, 0, 0));
+  background: linear-gradient(55deg, #212121 0%, #212121 40%, #323232 calc(40% + 1px), #323232 60%, #008F95 calc(60% + 1px), #008F95 70%, #14FFEC calc(70% + 1px), #14FFEC 100%);
 }
 .big-glados .custom-eyebrow {
   text-transform: uppercase;
