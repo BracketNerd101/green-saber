@@ -135,7 +135,8 @@
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: radial-gradient(circle at 24% 23%, rgba(167, 167, 167, 0.06) 0%, rgba(167, 167, 167, 0.06) 25%, rgba(148, 148, 148, 0.06) 25%, rgba(148, 148, 148, 0.06) 50%, rgba(129, 129, 129, 0.06) 50%, rgba(129, 129, 129, 0.06) 75%, rgba(110, 110, 110, 0.06) 75%, rgba(110, 110, 110, 0.06) 100%), radial-gradient(circle at 58% 30%, rgba(14, 14, 14, 0.06) 0%, rgba(14, 14, 14, 0.06) 25%, rgba(60, 60, 60, 0.06) 25%, rgba(60, 60, 60, 0.06) 50%, rgba(107, 107, 107, 0.06) 50%, rgba(107, 107, 107, 0.06) 75%, rgba(153, 153, 153, 0.06) 75%, rgba(153, 153, 153, 0.06) 100%), radial-gradient(circle at 79% 53%, rgba(225, 225, 225, 0.06) 0%, rgba(225, 225, 225, 0.06) 25%, rgba(189, 189, 189, 0.06) 25%, rgba(189, 189, 189, 0.06) 50%, rgba(152, 152, 152, 0.06) 50%, rgba(152, 152, 152, 0.06) 75%, rgba(116, 116, 116, 0.06) 75%, rgba(116, 116, 116, 0.06) 100%), linear-gradient(221deg, rgb(0, 0, 0), rgb(0, 0, 0));
+  background: radial-gradient(100% 225% at 100% 0%, #FF0000 0%, #000000 100%), linear-gradient(236deg, #00C2FF 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 0%, #CDFFEB 36%, #009F9D 36%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
+  background-blend-mode: overlay, hard-light, normal;
 }
 .big-web .custom-eyebrow {
   text-transform: uppercase;
@@ -330,7 +331,8 @@
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: radial-gradient(circle at 11% 62%, rgba(205, 205, 205, 0.0392156863) 0%, rgba(205, 205, 205, 0.0392156863) 50%, rgba(149, 149, 149, 0.04) 50%, rgba(149, 149, 149, 0.04) 100%), radial-gradient(circle at 78% 10%, rgba(49, 49, 49, 0.04) 0%, rgba(49, 49, 49, 0.04) 50%, rgba(254, 254, 254, 0.04) 50%, rgba(254, 254, 254, 0.04) 100%), radial-gradient(circle at 92% 43%, rgba(34, 34, 34, 0.04) 0%, rgba(34, 34, 34, 0.04) 50%, rgba(206, 206, 206, 0.04) 50%, rgba(206, 206, 206, 0.04) 100%), linear-gradient(329deg, rgb(244, 180, 0), rgb(218, 227, 61));
+  background: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
+  background-blend-mode: overlay, overlay, exclusion, normal;
 }
 .big-workspace .custom-eyebrow {
   text-transform: uppercase;
