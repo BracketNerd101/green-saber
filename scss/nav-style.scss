@@ -360,7 +360,9 @@ padding-top: 1.5rem;
     margin-bottom: auto;
     padding-top: 1.5rem;
 
-    background-image: repeating-linear-gradient(45deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(41, 27, 158),rgb(249, 77, 212));
+        background-image: radial-gradient(circle at 1% 52%, rgba(139, 139, 139, 0.05) 0%, rgba(139, 139, 139, 0.05) 50%, rgba(21, 21, 21, 0.05) 50%, rgba(21, 21, 21, 0.05) 100%), radial-gradient(circle at 41% 28%, rgba(81, 81, 81, 0.05) 0%, rgba(81, 81, 81, 0.05) 50%, rgba(7, 7, 7, 0.05) 50%, rgba(7, 7, 7, 0.05) 100%), radial-gradient(circle at 48% 1%, rgba(93, 93, 93, 0.05) 0%, rgba(93, 93, 93, 0.05) 50%, rgba(7, 7, 7, 0.05) 50%, rgba(7, 7, 7, 0.05) 100%), linear-gradient(255deg, rgb(156, 41, 132), rgb(47, 14, 122));
+
+    // background-image: repeating-linear-gradient(45deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(41, 27, 158),rgb(249, 77, 212));
         
     .meet-designer {
 
@@ -426,10 +428,9 @@ background-image: repeating-linear-gradient(45deg, hsla(64,83%,54%,0.05) 0px, hs
   margin-bottom: auto;
 //   Fancy Gradient Below
 
-// background: linear-gradient(123deg, #FFFFFF 0%, #00B2FF 100%), linear-gradient(236deg, #BAFF99 0%, #005E64 100%), linear-gradient(180deg, #FFFFFF 0%, #002A5A 100%), linear-gradient(225deg, #0094FF 20%, #BFF4ED 45%, #280F34 45%, #280F34 70%, #FF004E 70%, #E41655 85%, #B30753 85%, #B30753 100%), linear-gradient(135deg, #0E0220 15%, #0E0220 35%, #E40475 35%, #E40475 60%, #002A5A 60%, #002A5A 68%, #002A5A 68%, #002A5A 100%);
-// background-blend-mode: overlay, overlay, overlay, darken, normal;
+background-image: repeating-linear-gradient(45deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(41, 27, 158),rgb(249, 77, 212));
 
-background-image: repeating-linear-gradient(45deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(17, 17, 17),rgb(66, 66, 66));
+// background-image: repeating-linear-gradient(45deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(17, 17, 17),rgb(66, 66, 66));
 
 }
 
@@ -508,6 +509,13 @@ background-image: repeating-linear-gradient(45deg, hsla(207,0%,63%,0.05) 0px, hs
 
     text-transform: uppercase;
     font-weight: 600;
+  }
+
+  .custom-eyebrow-home {
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
   }
 
 }
