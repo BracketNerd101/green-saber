@@ -1,30 +1,31 @@
 .stacked-logo {
 
-  background-color: #000000; text-align: left; 
-  font-size: 1.6rem;
+   background-color: #000000; 
+   text-align: left; 
+   font-size: 1.6rem;
    color: #ffffff; 
    padding: 6px 6px; 
    line-height: 1.5rem;
    font-weight: 600;
+   border: solid 1.3px #000000;
 
 
 }
 
 .stacked-logo:hover {
 
+   background-color: #ffffff; 
    text-align: left; 
    font-size: 1.6rem;
-   color: #ffffff; 
+   color: #000000; 
    padding: 6px 6px; 
    line-height: 1.5rem;
-   transition: 1.2s;
+   transition: 0.2s;
    font-weight: 600;
+   border: solid 1.3px #000000;
 
   //  background-color: linear-gradient(to left 90deg, rgb(3, 199, 193),(#5c03b1);
-   background: linear-gradient(rgb(0, 9, 8), #030006);
-   
-
-
+  
 }
 
 
