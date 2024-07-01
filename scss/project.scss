@@ -293,6 +293,35 @@ background-blend-mode: overlay, hard-light, normal;
   padding-bottom: 4rem;
 }
 
+// style-guide CSS /////////////
+
+.big-style {
+  height: 99vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+
+  background-image: url("../img/img_style/hero_att_v2.png");
+
+  .custom-eyebrow {
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .custom-eyebrow {
+    text-transform: uppercase;
+  }
+}
+
+.style-guide-presentation {
+  background-color: #1CA8E0;
+  height: inherit;
+
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 // Billing  App CSS /////////////
 
 .big-billing {
