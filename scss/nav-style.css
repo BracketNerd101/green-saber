@@ -451,8 +451,6 @@
 }
 
 .hero-offwhite {
-  color: #000000;
-  height: 60vh;
-  background-color: #FFFFFF;
-  background-image: radial-gradient(circle at 1% 52%, rgba(139, 139, 139, 0.05) 0%, rgba(139, 139, 139, 0.05) 50%, rgba(21, 21, 21, 0.05) 50%, rgba(21, 21, 21, 0.05) 100%), radial-gradient(circle at 41% 28%, rgba(81, 81, 81, 0.05) 0%, rgba(81, 81, 81, 0.05) 50%, rgba(7, 7, 7, 0.05) 50%, rgba(7, 7, 7, 0.05) 100%), radial-gradient(circle at 48% 1%, rgba(93, 93, 93, 0.05) 0%, rgba(93, 93, 93, 0.05) 50%, rgba(7, 7, 7, 0.05) 50%, rgba(7, 7, 7, 0.05) 100%), linear-gradient(255deg, #9c2984, #0dcaf0);
+  height: 50vh;
+  background-image: repeating-linear-gradient(135deg, rgba(181, 181, 181, 0.09) 0px, rgba(181, 181, 181, 0.09) 1px, transparent 1px, transparent 11px), repeating-linear-gradient(45deg, rgba(181, 181, 181, 0.09) 0px, rgba(181, 181, 181, 0.09) 1px, transparent 1px, transparent 11px), linear-gradient(90deg, white, white);
 }
