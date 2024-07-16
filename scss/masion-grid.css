@@ -4,7 +4,6 @@ body {
   color: #465665;
 }
 
-
 /* The title */
 .title {
   font-weight: 700;
@@ -39,7 +38,6 @@ body {
   opacity: 1;
 }
 
-
 .intro h3 a {
   font-weight: 400;
 }
@@ -54,14 +52,17 @@ body {
 /* Masonry item */
 .masonry .brick {
   margin-bottom: 30px;
-  display: inline-block; /* Fix the misalignment of items */
-  vertical-align: top; /* Keep the item on the very top */
+  display: inline-block;
+  /* Fix the misalignment of items */
+  vertical-align: top;
+  /* Keep the item on the very top */
 }
 
 /* Masonry image effects */
 .masonry .brick img {
   transition: all .5s ease-in-out;
-  backface-visibility: hidden; /* Remove Image flickering on hover */
+  backface-visibility: hidden;
+  /* Remove Image flickering on hover */
 }
 
 .masonry .brick:hover img {
@@ -101,11 +102,9 @@ body {
   .desc {
     font-size: 1.25em;
   }
-
   .intro {
     letter-spacing: 1px;
   }
-
   .masonry {
     column-count: 3;
   }
