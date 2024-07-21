@@ -1,12 +1,27 @@
 
 
-
-#slidy-container { 
-  width: 100%; overflow: hidden; 
-}
-
 .hero-slider-container{
 
-    width: 100vw;
-    height: 100%;
+    
+    height: inherit;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+
+    // background-color: #03c7c1;
+
+    .special-intro {
+
+        margin-top: 20rem;
+        margin-left: 1.5rem;
+    }
+
+}
+
+.announcement {
+
+    background-color: #5c03b1;
+    color: #FFFFFF;
+
+
 }
