@@ -143,6 +143,21 @@
   max-width: 100%;
 }
 
+.thumb-styleguide-2 {
+  background: url("../img/styleguide-laptop.png") center/cover no-repeat;
+  height: 43rem;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  z-index: -3;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
 .thumb-web-friday {
   background: url("..img/web-img/ipad-black-friday.jpg") center/cover no-repeat;
   height: 43rem;
